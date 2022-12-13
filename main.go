@@ -24,8 +24,8 @@ func main() {
 		log.Fatal("Error loading .env file")
 	}
 
+	// Get discord token from ENV file
 	token := os.Getenv("DISCORD_TOKEN")
-	fmt.Println("token" + token)
 
 	// Init bot and catch error
 	dg, err := discordgo.New("Bot " + token)
@@ -76,9 +76,12 @@ func messageCreate(s *discordgo.Session, m *discordgo.MessageCreate) {
 		parts := strings.Split(m.Content, "search: ")
 		query := parts[1]
 
-		if awsBatonUserSearch(query) {
+		search := awsBatonUserSearch(query)
+
+		if len(search) != 0 {
+			fmt.Println(awsBatonUserSearch(query)[1])
 			// If user found notify discord
-			s.ChannelMessageSend(m.ChannelID, query+" was found!")
+			s.ChannelMessageSend(m.ChannelID, query+" was found with a resource type of "+search[1]+"!")
 		} else {
 			// If user not found notify discord
 			s.ChannelMessageSend(m.ChannelID, query+" not found!")
@@ -99,7 +102,7 @@ func messageCreate(s *discordgo.Session, m *discordgo.MessageCreate) {
 
 }
 
-// Format of user data within the baton json response
+// Format of DisplayName within the baton json response
 type AWSResources struct {
 	Resources []struct {
 		Resource struct {
@@ -108,36 +111,44 @@ type AWSResources struct {
 	} `json:"resources"`
 }
 
-// Returns a bool if "user" was found or not
-func awsBatonUserSearch(user string) bool {
+// format of displayname and resource type within the baton json response
+type AWSResourcesCombined struct {
+	Resources []struct {
+		Resource struct {
+			DisplayName string `json:"displayName"`
+			ID          struct {
+				ResourceType string `json:"resourceType"`
+			} `json:"id"`
+		} `json:"resource"`
+	} `json:"resources"`
+}
 
-	// run terminal baton resources and capture json output
+func awsBatonUserSearch(user string) []string {
+	// run the `baton resources` command and capture the JSON output
 	out, err := exec.Command("baton", "resources", "-o", "json").Output()
-
-	// catch error if process above produces one
 	if err != nil {
 		log.Fatal(err)
 	}
 
-	// convert baton response into a string
+	// convert the output to a string
 	response := string(out)
 
-	// process json
-	var resources AWSResources
-	err = json.Unmarshal([]byte(response), &resources)
+	// parse the JSON input
+	var resourcesCombined AWSResourcesCombined
+	err = json.Unmarshal([]byte(response), &resourcesCombined)
 	if err != nil {
 		fmt.Println(err)
 	}
 
-	// check if user exists in json output
-	for _, r := range resources.Resources {
+	// iterate over the resources in the struct and return the display name and resource type if the display name matches the given user
+	for _, r := range resourcesCombined.Resources {
 		if r.Resource.DisplayName == user {
-			return true
+			return []string{r.Resource.DisplayName, r.Resource.ID.ResourceType}
 		}
 	}
 
-	// If user not found, return false
-	return false
+	// if the user was not found, return an empty slice
+	return []string{}
 }
 
 // Returns total count of all users
@@ -158,12 +169,13 @@ func total() int {
 	// Convert Baton AWS response into a string
 	response := string(out)
 
-	// process json
+	// Process json
 	var resources AWSResources
 	err = json.Unmarshal([]byte(response), &resources)
 	if err != nil {
 		fmt.Println(err)
 	}
 
+	// Return total count of users
 	return len(resources.Resources)
 }

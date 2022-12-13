@@ -1,0 +1,4790 @@
+{
+    "resources": [
+        {
+            "resource": {
+                "id": {
+                    "resourceType": "role",
+                    "resource": "arn:aws:iam::110025230963:role/service-role/AmazonSageMaker-ExecutionRole-20220712T225235"
+                },
+                "displayName": "AmazonSageMaker-ExecutionRole-20220712T225235",
+                "annotations": [
+                    {
+                        "@type": "type.googleapis.com/c1.connector.v2.V1Identifier",
+                        "id": "AROARTHQDZJZRMAO2PS4D"
+                    },
+                    {
+                        "@type": "type.googleapis.com/c1.connector.v2.RoleTrait",
+                        "profile": {
+                            "aws_arn": "arn:aws:iam::110025230963:role/service-role/AmazonSageMaker-ExecutionRole-20220712T225235",
+                            "aws_path": "/service-role/",
+                            "aws_role_description": "SageMaker execution role created from the SageMaker AWS Management Console.",
+                            "aws_role_name": "AmazonSageMaker-ExecutionRole-20220712T225235",
+                            "aws_tags": {}
+                        }
+                    }
+                ]
+            },
+            "resourceType": {
+                "id": "role",
+                "displayName": "IAM Role",
+                "traits": [
+                    "TRAIT_ROLE"
+                ],
+                "annotations": [
+                    {
+                        "@type": "type.googleapis.com/c1.connector.v2.V1Identifier",
+                        "id": "role"
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "id": {
+                    "resourceType": "role",
+                    "resource": "arn:aws:iam::110025230963:role/service-role/AmazonSageMakerServiceCatalogProductsApiGatewayRole"
+                },
+                "displayName": "AmazonSageMakerServiceCatalogProductsApiGatewayRole",
+                "annotations": [
+                    {
+                        "@type": "type.googleapis.com/c1.connector.v2.V1Identifier",
+                        "id": "AROARTHQDZJZX4GBJHN4W"
+                    },
+                    {
+                        "@type": "type.googleapis.com/c1.connector.v2.RoleTrait",
+                        "profile": {
+                            "aws_arn": "arn:aws:iam::110025230963:role/service-role/AmazonSageMakerServiceCatalogProductsApiGatewayRole",
+                            "aws_path": "/service-role/",
+                            "aws_role_description": "SageMaker role created from the SageMaker AWS Management Console. This role will grant permissions required to use AWS ApiGateway within the Amazon SageMaker portfolio of products.",
+                            "aws_role_name": "AmazonSageMakerServiceCatalogProductsApiGatewayRole",
+                            "aws_tags": {}
+                        }
+                    }
+                ]
+            },
+            "resourceType": {
+                "id": "role",
+                "displayName": "IAM Role",
+                "traits": [
+                    "TRAIT_ROLE"
+                ],
+                "annotations": [
+                    {
+                        "@type": "type.googleapis.com/c1.connector.v2.V1Identifier",
+                        "id": "role"
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "id": {
+                    "resourceType": "role",
+                    "resource": "arn:aws:iam::110025230963:role/service-role/AmazonSageMakerServiceCatalogProductsCloudformationRole"
+                },
+                "displayName": "AmazonSageMakerServiceCatalogProductsCloudformationRole",
+                "annotations": [
+                    {
+                        "@type": "type.googleapis.com/c1.connector.v2.V1Identifier",
+                        "id": "AROARTHQDZJZQ4O2S2N7V"
+                    },
+                    {
+                        "@type": "type.googleapis.com/c1.connector.v2.RoleTrait",
+                        "profile": {
+                            "aws_arn": "arn:aws:iam::110025230963:role/service-role/AmazonSageMakerServiceCatalogProductsCloudformationRole",
+                            "aws_path": "/service-role/",
+                            "aws_role_description": "SageMaker role created from the SageMaker AWS Management Console. This role will grant permissions required to use AWS CloudFormation within the Amazon SageMaker portfolio of products.",
+                            "aws_role_name": "AmazonSageMakerServiceCatalogProductsCloudformationRole",
+                            "aws_tags": {}
+                        }
+                    }
+                ]
+            },
+            "resourceType": {
+                "id": "role",
+                "displayName": "IAM Role",
+                "traits": [
+                    "TRAIT_ROLE"
+                ],
+                "annotations": [
+                    {
+                        "@type": "type.googleapis.com/c1.connector.v2.V1Identifier",
+                        "id": "role"
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "id": {
+                    "resourceType": "role",
+                    "resource": "arn:aws:iam::110025230963:role/service-role/AmazonSageMakerServiceCatalogProductsCodeBuildRole"
+                },
+                "displayName": "AmazonSageMakerServiceCatalogProductsCodeBuildRole",
+                "annotations": [
+                    {
+                        "@type": "type.googleapis.com/c1.connector.v2.V1Identifier",
+                        "id": "AROARTHQDZJZ7HIAORI7P"
+                    },
+                    {
+                        "@type": "type.googleapis.com/c1.connector.v2.RoleTrait",
+                        "profile": {
+                            "aws_arn": "arn:aws:iam::110025230963:role/service-role/AmazonSageMakerServiceCatalogProductsCodeBuildRole",
+                            "aws_path": "/service-role/",
+                            "aws_role_description": "SageMaker role created from the SageMaker AWS Management Console. This role will grant permissions required to use AWS CodeBuild within the Amazon SageMaker portfolio of products.",
+                            "aws_role_name": "AmazonSageMakerServiceCatalogProductsCodeBuildRole",
+                            "aws_tags": {}
+                        }
+                    }
+                ]
+            },
+            "resourceType": {
+                "id": "role",
+                "displayName": "IAM Role",
+                "traits": [
+                    "TRAIT_ROLE"
+                ],
+                "annotations": [
+                    {
+                        "@type": "type.googleapis.com/c1.connector.v2.V1Identifier",
+                        "id": "role"
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "id": {
+                    "resourceType": "role",
+                    "resource": "arn:aws:iam::110025230963:role/service-role/AmazonSageMakerServiceCatalogProductsCodePipelineRole"
+                },
+                "displayName": "AmazonSageMakerServiceCatalogProductsCodePipelineRole",
+                "annotations": [
+                    {
+                        "@type": "type.googleapis.com/c1.connector.v2.V1Identifier",
+                        "id": "AROARTHQDZJZW23P54QDW"
+                    },
+                    {
+                        "@type": "type.googleapis.com/c1.connector.v2.RoleTrait",
+                        "profile": {
+                            "aws_arn": "arn:aws:iam::110025230963:role/service-role/AmazonSageMakerServiceCatalogProductsCodePipelineRole",
+                            "aws_path": "/service-role/",
+                            "aws_role_description": "SageMaker role created from the SageMaker AWS Management Console. This role will grant permissions required to use AWS CodePipeline within the Amazon SageMaker portfolio of products.",
+                            "aws_role_name": "AmazonSageMakerServiceCatalogProductsCodePipelineRole",
+                            "aws_tags": {}
+                        }
+                    }
+                ]
+            },
+            "resourceType": {
+                "id": "role",
+                "displayName": "IAM Role",
+                "traits": [
+                    "TRAIT_ROLE"
+                ],
+                "annotations": [
+                    {
+                        "@type": "type.googleapis.com/c1.connector.v2.V1Identifier",
+                        "id": "role"
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "id": {
+                    "resourceType": "role",
+                    "resource": "arn:aws:iam::110025230963:role/service-role/AmazonSageMakerServiceCatalogProductsEventsRole"
+                },
+                "displayName": "AmazonSageMakerServiceCatalogProductsEventsRole",
+                "annotations": [
+                    {
+                        "@type": "type.googleapis.com/c1.connector.v2.V1Identifier",
+                        "id": "AROARTHQDZJZXA6L75V5W"
+                    },
+                    {
+                        "@type": "type.googleapis.com/c1.connector.v2.RoleTrait",
+                        "profile": {
+                            "aws_arn": "arn:aws:iam::110025230963:role/service-role/AmazonSageMakerServiceCatalogProductsEventsRole",
+                            "aws_path": "/service-role/",
+                            "aws_role_description": "SageMaker role created from the SageMaker AWS Management Console. This role will grant permissions required to use AWS Events within the Amazon SageMaker portfolio of products.",
+                            "aws_role_name": "AmazonSageMakerServiceCatalogProductsEventsRole",
+                            "aws_tags": {}
+                        }
+                    }
+                ]
+            },
+            "resourceType": {
+                "id": "role",
+                "displayName": "IAM Role",
+                "traits": [
+                    "TRAIT_ROLE"
+                ],
+                "annotations": [
+                    {
+                        "@type": "type.googleapis.com/c1.connector.v2.V1Identifier",
+                        "id": "role"
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "id": {
+                    "resourceType": "role",
+                    "resource": "arn:aws:iam::110025230963:role/service-role/AmazonSageMakerServiceCatalogProductsExecutionRole"
+                },
+                "displayName": "AmazonSageMakerServiceCatalogProductsExecutionRole",
+                "annotations": [
+                    {
+                        "@type": "type.googleapis.com/c1.connector.v2.V1Identifier",
+                        "id": "AROARTHQDZJZ2WNEUO6P7"
+                    },
+                    {
+                        "@type": "type.googleapis.com/c1.connector.v2.RoleTrait",
+                        "profile": {
+                            "aws_arn": "arn:aws:iam::110025230963:role/service-role/AmazonSageMakerServiceCatalogProductsExecutionRole",
+                            "aws_path": "/service-role/",
+                            "aws_role_description": "SageMaker role created from the SageMaker AWS Management Console. This role will grant permissions required to use AWS SageMaker within the Amazon SageMaker portfolio of products.",
+                            "aws_role_name": "AmazonSageMakerServiceCatalogProductsExecutionRole",
+                            "aws_tags": {}
+                        }
+                    }
+                ]
+            },
+            "resourceType": {
+                "id": "role",
+                "displayName": "IAM Role",
+                "traits": [
+                    "TRAIT_ROLE"
+                ],
+                "annotations": [
+                    {
+                        "@type": "type.googleapis.com/c1.connector.v2.V1Identifier",
+                        "id": "role"
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "id": {
+                    "resourceType": "role",
+                    "resource": "arn:aws:iam::110025230963:role/service-role/AmazonSageMakerServiceCatalogProductsFirehoseRole"
+                },
+                "displayName": "AmazonSageMakerServiceCatalogProductsFirehoseRole",
+                "annotations": [
+                    {
+                        "@type": "type.googleapis.com/c1.connector.v2.V1Identifier",
+                        "id": "AROARTHQDZJZRYHAH2GOJ"
+                    },
+                    {
+                        "@type": "type.googleapis.com/c1.connector.v2.RoleTrait",
+                        "profile": {
+                            "aws_arn": "arn:aws:iam::110025230963:role/service-role/AmazonSageMakerServiceCatalogProductsFirehoseRole",
+                            "aws_path": "/service-role/",
+                            "aws_role_description": "SageMaker role created from the SageMaker AWS Management Console. This role will grant permissions required to use AWS Firehose within the Amazon SageMaker portfolio of products.",
+                            "aws_role_name": "AmazonSageMakerServiceCatalogProductsFirehoseRole",
+                            "aws_tags": {}
+                        }
+                    }
+                ]
+            },
+            "resourceType": {
+                "id": "role",
+                "displayName": "IAM Role",
+                "traits": [
+                    "TRAIT_ROLE"
+                ],
+                "annotations": [
+                    {
+                        "@type": "type.googleapis.com/c1.connector.v2.V1Identifier",
+                        "id": "role"
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "id": {
+                    "resourceType": "role",
+                    "resource": "arn:aws:iam::110025230963:role/service-role/AmazonSageMakerServiceCatalogProductsGlueRole"
+                },
+                "displayName": "AmazonSageMakerServiceCatalogProductsGlueRole",
+                "annotations": [
+                    {
+                        "@type": "type.googleapis.com/c1.connector.v2.V1Identifier",
+                        "id": "AROARTHQDZJZ7VXXDEV22"
+                    },
+                    {
+                        "@type": "type.googleapis.com/c1.connector.v2.RoleTrait",
+                        "profile": {
+                            "aws_arn": "arn:aws:iam::110025230963:role/service-role/AmazonSageMakerServiceCatalogProductsGlueRole",
+                            "aws_path": "/service-role/",
+                            "aws_role_description": "SageMaker role created from the SageMaker AWS Management Console. This role will grant permissions required to use AWS Glue within the Amazon SageMaker portfolio of products.",
+                            "aws_role_name": "AmazonSageMakerServiceCatalogProductsGlueRole",
+                            "aws_tags": {}
+                        }
+                    }
+                ]
+            },
+            "resourceType": {
+                "id": "role",
+                "displayName": "IAM Role",
+                "traits": [
+                    "TRAIT_ROLE"
+                ],
+                "annotations": [
+                    {
+                        "@type": "type.googleapis.com/c1.connector.v2.V1Identifier",
+                        "id": "role"
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "id": {
+                    "resourceType": "role",
+                    "resource": "arn:aws:iam::110025230963:role/service-role/AmazonSageMakerServiceCatalogProductsLambdaRole"
+                },
+                "displayName": "AmazonSageMakerServiceCatalogProductsLambdaRole",
+                "annotations": [
+                    {
+                        "@type": "type.googleapis.com/c1.connector.v2.V1Identifier",
+                        "id": "AROARTHQDZJZ2OUOSP7VA"
+                    },
+                    {
+                        "@type": "type.googleapis.com/c1.connector.v2.RoleTrait",
+                        "profile": {
+                            "aws_arn": "arn:aws:iam::110025230963:role/service-role/AmazonSageMakerServiceCatalogProductsLambdaRole",
+                            "aws_path": "/service-role/",
+                            "aws_role_description": "SageMaker role created from the SageMaker AWS Management Console. This role will grant permissions required to use AWS Lambda within the Amazon SageMaker portfolio of products.",
+                            "aws_role_name": "AmazonSageMakerServiceCatalogProductsLambdaRole",
+                            "aws_tags": {}
+                        }
+                    }
+                ]
+            },
+            "resourceType": {
+                "id": "role",
+                "displayName": "IAM Role",
+                "traits": [
+                    "TRAIT_ROLE"
+                ],
+                "annotations": [
+                    {
+                        "@type": "type.googleapis.com/c1.connector.v2.V1Identifier",
+                        "id": "role"
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "id": {
+                    "resourceType": "role",
+                    "resource": "arn:aws:iam::110025230963:role/service-role/AmazonSageMakerServiceCatalogProductsLaunchRole"
+                },
+                "displayName": "AmazonSageMakerServiceCatalogProductsLaunchRole",
+                "annotations": [
+                    {
+                        "@type": "type.googleapis.com/c1.connector.v2.V1Identifier",
+                        "id": "AROARTHQDZJZQN6QGWHXT"
+                    },
+                    {
+                        "@type": "type.googleapis.com/c1.connector.v2.RoleTrait",
+                        "profile": {
+                            "aws_arn": "arn:aws:iam::110025230963:role/service-role/AmazonSageMakerServiceCatalogProductsLaunchRole",
+                            "aws_path": "/service-role/",
+                            "aws_role_description": "SageMaker role created from the SageMaker AWS Management Console. This role has the permissions required to launch the Amazon SageMaker portfolio of products from AWS ServiceCatalog.",
+                            "aws_role_name": "AmazonSageMakerServiceCatalogProductsLaunchRole",
+                            "aws_tags": {}
+                        }
+                    }
+                ]
+            },
+            "resourceType": {
+                "id": "role",
+                "displayName": "IAM Role",
+                "traits": [
+                    "TRAIT_ROLE"
+                ],
+                "annotations": [
+                    {
+                        "@type": "type.googleapis.com/c1.connector.v2.V1Identifier",
+                        "id": "role"
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "id": {
+                    "resourceType": "role",
+                    "resource": "arn:aws:iam::110025230963:role/service-role/AmazonSageMakerServiceCatalogProductsUseRole"
+                },
+                "displayName": "AmazonSageMakerServiceCatalogProductsUseRole",
+                "annotations": [
+                    {
+                        "@type": "type.googleapis.com/c1.connector.v2.V1Identifier",
+                        "id": "AROARTHQDZJZY32OPU7YS"
+                    },
+                    {
+                        "@type": "type.googleapis.com/c1.connector.v2.RoleTrait",
+                        "profile": {
+                            "aws_arn": "arn:aws:iam::110025230963:role/service-role/AmazonSageMakerServiceCatalogProductsUseRole",
+                            "aws_path": "/service-role/",
+                            "aws_role_description": "SageMaker role created from the SageMaker AWS Management Console. This role has the permissions required to use the Amazon SageMaker portfolio of products from AWS ServiceCatalog.",
+                            "aws_role_name": "AmazonSageMakerServiceCatalogProductsUseRole",
+                            "aws_tags": {}
+                        }
+                    }
+                ]
+            },
+            "resourceType": {
+                "id": "role",
+                "displayName": "IAM Role",
+                "traits": [
+                    "TRAIT_ROLE"
+                ],
+                "annotations": [
+                    {
+                        "@type": "type.googleapis.com/c1.connector.v2.V1Identifier",
+                        "id": "role"
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "id": {
+                    "resourceType": "role",
+                    "resource": "arn:aws:iam::110025230963:role/amplify-appandroid-dev-134504-authRole"
+                },
+                "displayName": "amplify-appandroid-dev-134504-authRole",
+                "annotations": [
+                    {
+                        "@type": "type.googleapis.com/c1.connector.v2.V1Identifier",
+                        "id": "AROARTHQDZJZ5CX46SGEC"
+                    },
+                    {
+                        "@type": "type.googleapis.com/c1.connector.v2.RoleTrait",
+                        "profile": {
+                            "aws_arn": "arn:aws:iam::110025230963:role/amplify-appandroid-dev-134504-authRole",
+                            "aws_path": "/",
+                            "aws_role_description": "",
+                            "aws_role_name": "amplify-appandroid-dev-134504-authRole",
+                            "aws_tags": {}
+                        }
+                    }
+                ]
+            },
+            "resourceType": {
+                "id": "role",
+                "displayName": "IAM Role",
+                "traits": [
+                    "TRAIT_ROLE"
+                ],
+                "annotations": [
+                    {
+                        "@type": "type.googleapis.com/c1.connector.v2.V1Identifier",
+                        "id": "role"
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "id": {
+                    "resourceType": "role",
+                    "resource": "arn:aws:iam::110025230963:role/amplify-appandroid-dev-134504-authRole-idp"
+                },
+                "displayName": "amplify-appandroid-dev-134504-authRole-idp",
+                "annotations": [
+                    {
+                        "@type": "type.googleapis.com/c1.connector.v2.V1Identifier",
+                        "id": "AROARTHQDZJZ3BAJMA2SO"
+                    },
+                    {
+                        "@type": "type.googleapis.com/c1.connector.v2.RoleTrait",
+                        "profile": {
+                            "aws_arn": "arn:aws:iam::110025230963:role/amplify-appandroid-dev-134504-authRole-idp",
+                            "aws_path": "/",
+                            "aws_role_description": "",
+                            "aws_role_name": "amplify-appandroid-dev-134504-authRole-idp",
+                            "aws_tags": {}
+                        }
+                    }
+                ]
+            },
+            "resourceType": {
+                "id": "role",
+                "displayName": "IAM Role",
+                "traits": [
+                    "TRAIT_ROLE"
+                ],
+                "annotations": [
+                    {
+                        "@type": "type.googleapis.com/c1.connector.v2.V1Identifier",
+                        "id": "role"
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "id": {
+                    "resourceType": "role",
+                    "resource": "arn:aws:iam::110025230963:role/amplify-appandroid-dev-134504-unauthRole"
+                },
+                "displayName": "amplify-appandroid-dev-134504-unauthRole",
+                "annotations": [
+                    {
+                        "@type": "type.googleapis.com/c1.connector.v2.V1Identifier",
+                        "id": "AROARTHQDZJZ7WIUPYPHK"
+                    },
+                    {
+                        "@type": "type.googleapis.com/c1.connector.v2.RoleTrait",
+                        "profile": {
+                            "aws_arn": "arn:aws:iam::110025230963:role/amplify-appandroid-dev-134504-unauthRole",
+                            "aws_path": "/",
+                            "aws_role_description": "",
+                            "aws_role_name": "amplify-appandroid-dev-134504-unauthRole",
+                            "aws_tags": {}
+                        }
+                    }
+                ]
+            },
+            "resourceType": {
+                "id": "role",
+                "displayName": "IAM Role",
+                "traits": [
+                    "TRAIT_ROLE"
+                ],
+                "annotations": [
+                    {
+                        "@type": "type.googleapis.com/c1.connector.v2.V1Identifier",
+                        "id": "role"
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "id": {
+                    "resourceType": "role",
+                    "resource": "arn:aws:iam::110025230963:role/amplify-dermgui-dev-112428-authRole"
+                },
+                "displayName": "amplify-dermgui-dev-112428-authRole",
+                "annotations": [
+                    {
+                        "@type": "type.googleapis.com/c1.connector.v2.V1Identifier",
+                        "id": "AROARTHQDZJZ34GKY3A6F"
+                    },
+                    {
+                        "@type": "type.googleapis.com/c1.connector.v2.RoleTrait",
+                        "profile": {
+                            "aws_arn": "arn:aws:iam::110025230963:role/amplify-dermgui-dev-112428-authRole",
+                            "aws_path": "/",
+                            "aws_role_description": "",
+                            "aws_role_name": "amplify-dermgui-dev-112428-authRole",
+                            "aws_tags": {}
+                        }
+                    }
+                ]
+            },
+            "resourceType": {
+                "id": "role",
+                "displayName": "IAM Role",
+                "traits": [
+                    "TRAIT_ROLE"
+                ],
+                "annotations": [
+                    {
+                        "@type": "type.googleapis.com/c1.connector.v2.V1Identifier",
+                        "id": "role"
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "id": {
+                    "resourceType": "role",
+                    "resource": "arn:aws:iam::110025230963:role/amplify-dermgui-dev-112428-unauthRole"
+                },
+                "displayName": "amplify-dermgui-dev-112428-unauthRole",
+                "annotations": [
+                    {
+                        "@type": "type.googleapis.com/c1.connector.v2.V1Identifier",
+                        "id": "AROARTHQDZJZZMXSRPWSO"
+                    },
+                    {
+                        "@type": "type.googleapis.com/c1.connector.v2.RoleTrait",
+                        "profile": {
+                            "aws_arn": "arn:aws:iam::110025230963:role/amplify-dermgui-dev-112428-unauthRole",
+                            "aws_path": "/",
+                            "aws_role_description": "",
+                            "aws_role_name": "amplify-dermgui-dev-112428-unauthRole",
+                            "aws_tags": {}
+                        }
+                    }
+                ]
+            },
+            "resourceType": {
+                "id": "role",
+                "displayName": "IAM Role",
+                "traits": [
+                    "TRAIT_ROLE"
+                ],
+                "annotations": [
+                    {
+                        "@type": "type.googleapis.com/c1.connector.v2.V1Identifier",
+                        "id": "role"
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "id": {
+                    "resourceType": "role",
+                    "resource": "arn:aws:iam::110025230963:role/amplify-dermgui-dev-123232-authRole"
+                },
+                "displayName": "amplify-dermgui-dev-123232-authRole",
+                "annotations": [
+                    {
+                        "@type": "type.googleapis.com/c1.connector.v2.V1Identifier",
+                        "id": "AROARTHQDZJZXY4BQLBXM"
+                    },
+                    {
+                        "@type": "type.googleapis.com/c1.connector.v2.RoleTrait",
+                        "profile": {
+                            "aws_arn": "arn:aws:iam::110025230963:role/amplify-dermgui-dev-123232-authRole",
+                            "aws_path": "/",
+                            "aws_role_description": "",
+                            "aws_role_name": "amplify-dermgui-dev-123232-authRole",
+                            "aws_tags": {}
+                        }
+                    }
+                ]
+            },
+            "resourceType": {
+                "id": "role",
+                "displayName": "IAM Role",
+                "traits": [
+                    "TRAIT_ROLE"
+                ],
+                "annotations": [
+                    {
+                        "@type": "type.googleapis.com/c1.connector.v2.V1Identifier",
+                        "id": "role"
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "id": {
+                    "resourceType": "role",
+                    "resource": "arn:aws:iam::110025230963:role/amplify-dermgui-dev-123232-unauthRole"
+                },
+                "displayName": "amplify-dermgui-dev-123232-unauthRole",
+                "annotations": [
+                    {
+                        "@type": "type.googleapis.com/c1.connector.v2.V1Identifier",
+                        "id": "AROARTHQDZJZWOBYXYTE4"
+                    },
+                    {
+                        "@type": "type.googleapis.com/c1.connector.v2.RoleTrait",
+                        "profile": {
+                            "aws_arn": "arn:aws:iam::110025230963:role/amplify-dermgui-dev-123232-unauthRole",
+                            "aws_path": "/",
+                            "aws_role_description": "",
+                            "aws_role_name": "amplify-dermgui-dev-123232-unauthRole",
+                            "aws_tags": {}
+                        }
+                    }
+                ]
+            },
+            "resourceType": {
+                "id": "role",
+                "displayName": "IAM Role",
+                "traits": [
+                    "TRAIT_ROLE"
+                ],
+                "annotations": [
+                    {
+                        "@type": "type.googleapis.com/c1.connector.v2.V1Identifier",
+                        "id": "role"
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "id": {
+                    "resourceType": "role",
+                    "resource": "arn:aws:iam::110025230963:role/amplify-dermoscan-dermgui-132110-authRole"
+                },
+                "displayName": "amplify-dermoscan-dermgui-132110-authRole",
+                "annotations": [
+                    {
+                        "@type": "type.googleapis.com/c1.connector.v2.V1Identifier",
+                        "id": "AROARTHQDZJZ24CTHXRXT"
+                    },
+                    {
+                        "@type": "type.googleapis.com/c1.connector.v2.RoleTrait",
+                        "profile": {
+                            "aws_arn": "arn:aws:iam::110025230963:role/amplify-dermoscan-dermgui-132110-authRole",
+                            "aws_path": "/",
+                            "aws_role_description": "",
+                            "aws_role_name": "amplify-dermoscan-dermgui-132110-authRole",
+                            "aws_tags": {}
+                        }
+                    }
+                ]
+            },
+            "resourceType": {
+                "id": "role",
+                "displayName": "IAM Role",
+                "traits": [
+                    "TRAIT_ROLE"
+                ],
+                "annotations": [
+                    {
+                        "@type": "type.googleapis.com/c1.connector.v2.V1Identifier",
+                        "id": "role"
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "id": {
+                    "resourceType": "role",
+                    "resource": "arn:aws:iam::110025230963:role/amplify-dermoscan-dermgui-132110-unauthRole"
+                },
+                "displayName": "amplify-dermoscan-dermgui-132110-unauthRole",
+                "annotations": [
+                    {
+                        "@type": "type.googleapis.com/c1.connector.v2.V1Identifier",
+                        "id": "AROARTHQDZJZ4SJH2OJGU"
+                    },
+                    {
+                        "@type": "type.googleapis.com/c1.connector.v2.RoleTrait",
+                        "profile": {
+                            "aws_arn": "arn:aws:iam::110025230963:role/amplify-dermoscan-dermgui-132110-unauthRole",
+                            "aws_path": "/",
+                            "aws_role_description": "",
+                            "aws_role_name": "amplify-dermoscan-dermgui-132110-unauthRole",
+                            "aws_tags": {}
+                        }
+                    }
+                ]
+            },
+            "resourceType": {
+                "id": "role",
+                "displayName": "IAM Role",
+                "traits": [
+                    "TRAIT_ROLE"
+                ],
+                "annotations": [
+                    {
+                        "@type": "type.googleapis.com/c1.connector.v2.V1Identifier",
+                        "id": "role"
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "id": {
+                    "resourceType": "role",
+                    "resource": "arn:aws:iam::110025230963:role/amplify-dermoscan-production-210821-authRole"
+                },
+                "displayName": "amplify-dermoscan-production-210821-authRole",
+                "annotations": [
+                    {
+                        "@type": "type.googleapis.com/c1.connector.v2.V1Identifier",
+                        "id": "AROARTHQDZJZTCXFB6VPA"
+                    },
+                    {
+                        "@type": "type.googleapis.com/c1.connector.v2.RoleTrait",
+                        "profile": {
+                            "aws_arn": "arn:aws:iam::110025230963:role/amplify-dermoscan-production-210821-authRole",
+                            "aws_path": "/",
+                            "aws_role_description": "",
+                            "aws_role_name": "amplify-dermoscan-production-210821-authRole",
+                            "aws_tags": {}
+                        }
+                    }
+                ]
+            },
+            "resourceType": {
+                "id": "role",
+                "displayName": "IAM Role",
+                "traits": [
+                    "TRAIT_ROLE"
+                ],
+                "annotations": [
+                    {
+                        "@type": "type.googleapis.com/c1.connector.v2.V1Identifier",
+                        "id": "role"
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "id": {
+                    "resourceType": "role",
+                    "resource": "arn:aws:iam::110025230963:role/amplify-dermoscan-production-210821-authRole-idp"
+                },
+                "displayName": "amplify-dermoscan-production-210821-authRole-idp",
+                "annotations": [
+                    {
+                        "@type": "type.googleapis.com/c1.connector.v2.V1Identifier",
+                        "id": "AROARTHQDZJZVOQR3QAKB"
+                    },
+                    {
+                        "@type": "type.googleapis.com/c1.connector.v2.RoleTrait",
+                        "profile": {
+                            "aws_arn": "arn:aws:iam::110025230963:role/amplify-dermoscan-production-210821-authRole-idp",
+                            "aws_path": "/",
+                            "aws_role_description": "",
+                            "aws_role_name": "amplify-dermoscan-production-210821-authRole-idp",
+                            "aws_tags": {}
+                        }
+                    }
+                ]
+            },
+            "resourceType": {
+                "id": "role",
+                "displayName": "IAM Role",
+                "traits": [
+                    "TRAIT_ROLE"
+                ],
+                "annotations": [
+                    {
+                        "@type": "type.googleapis.com/c1.connector.v2.V1Identifier",
+                        "id": "role"
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "id": {
+                    "resourceType": "role",
+                    "resource": "arn:aws:iam::110025230963:role/amplify-dermoscan-production-210821-unauthRole"
+                },
+                "displayName": "amplify-dermoscan-production-210821-unauthRole",
+                "annotations": [
+                    {
+                        "@type": "type.googleapis.com/c1.connector.v2.V1Identifier",
+                        "id": "AROARTHQDZJZQ5PCMV2HP"
+                    },
+                    {
+                        "@type": "type.googleapis.com/c1.connector.v2.RoleTrait",
+                        "profile": {
+                            "aws_arn": "arn:aws:iam::110025230963:role/amplify-dermoscan-production-210821-unauthRole",
+                            "aws_path": "/",
+                            "aws_role_description": "",
+                            "aws_role_name": "amplify-dermoscan-production-210821-unauthRole",
+                            "aws_tags": {}
+                        }
+                    }
+                ]
+            },
+            "resourceType": {
+                "id": "role",
+                "displayName": "IAM Role",
+                "traits": [
+                    "TRAIT_ROLE"
+                ],
+                "annotations": [
+                    {
+                        "@type": "type.googleapis.com/c1.connector.v2.V1Identifier",
+                        "id": "role"
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "id": {
+                    "resourceType": "role",
+                    "resource": "arn:aws:iam::110025230963:role/amplify-dermoscan-staging-04013-authRole"
+                },
+                "displayName": "amplify-dermoscan-staging-04013-authRole",
+                "annotations": [
+                    {
+                        "@type": "type.googleapis.com/c1.connector.v2.V1Identifier",
+                        "id": "AROARTHQDZJZ7IAPMPF7E"
+                    },
+                    {
+                        "@type": "type.googleapis.com/c1.connector.v2.RoleTrait",
+                        "profile": {
+                            "aws_arn": "arn:aws:iam::110025230963:role/amplify-dermoscan-staging-04013-authRole",
+                            "aws_path": "/",
+                            "aws_role_description": "",
+                            "aws_role_name": "amplify-dermoscan-staging-04013-authRole",
+                            "aws_tags": {}
+                        }
+                    }
+                ]
+            },
+            "resourceType": {
+                "id": "role",
+                "displayName": "IAM Role",
+                "traits": [
+                    "TRAIT_ROLE"
+                ],
+                "annotations": [
+                    {
+                        "@type": "type.googleapis.com/c1.connector.v2.V1Identifier",
+                        "id": "role"
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "id": {
+                    "resourceType": "role",
+                    "resource": "arn:aws:iam::110025230963:role/amplify-dermoscan-staging-04013-authRole-idp"
+                },
+                "displayName": "amplify-dermoscan-staging-04013-authRole-idp",
+                "annotations": [
+                    {
+                        "@type": "type.googleapis.com/c1.connector.v2.V1Identifier",
+                        "id": "AROARTHQDZJZV2OXC3T26"
+                    },
+                    {
+                        "@type": "type.googleapis.com/c1.connector.v2.RoleTrait",
+                        "profile": {
+                            "aws_arn": "arn:aws:iam::110025230963:role/amplify-dermoscan-staging-04013-authRole-idp",
+                            "aws_path": "/",
+                            "aws_role_description": "",
+                            "aws_role_name": "amplify-dermoscan-staging-04013-authRole-idp",
+                            "aws_tags": {}
+                        }
+                    }
+                ]
+            },
+            "resourceType": {
+                "id": "role",
+                "displayName": "IAM Role",
+                "traits": [
+                    "TRAIT_ROLE"
+                ],
+                "annotations": [
+                    {
+                        "@type": "type.googleapis.com/c1.connector.v2.V1Identifier",
+                        "id": "role"
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "id": {
+                    "resourceType": "role",
+                    "resource": "arn:aws:iam::110025230963:role/amplify-dermoscan-staging-04013-unauthRole"
+                },
+                "displayName": "amplify-dermoscan-staging-04013-unauthRole",
+                "annotations": [
+                    {
+                        "@type": "type.googleapis.com/c1.connector.v2.V1Identifier",
+                        "id": "AROARTHQDZJZQVAL7DZ52"
+                    },
+                    {
+                        "@type": "type.googleapis.com/c1.connector.v2.RoleTrait",
+                        "profile": {
+                            "aws_arn": "arn:aws:iam::110025230963:role/amplify-dermoscan-staging-04013-unauthRole",
+                            "aws_path": "/",
+                            "aws_role_description": "",
+                            "aws_role_name": "amplify-dermoscan-staging-04013-unauthRole",
+                            "aws_tags": {}
+                        }
+                    }
+                ]
+            },
+            "resourceType": {
+                "id": "role",
+                "displayName": "IAM Role",
+                "traits": [
+                    "TRAIT_ROLE"
+                ],
+                "annotations": [
+                    {
+                        "@type": "type.googleapis.com/c1.connector.v2.V1Identifier",
+                        "id": "role"
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "id": {
+                    "resourceType": "role",
+                    "resource": "arn:aws:iam::110025230963:role/amplify-dermoseplatform-staging-185039-authRole"
+                },
+                "displayName": "amplify-dermoseplatform-staging-185039-authRole",
+                "annotations": [
+                    {
+                        "@type": "type.googleapis.com/c1.connector.v2.V1Identifier",
+                        "id": "AROARTHQDZJZTNEB7VK6N"
+                    },
+                    {
+                        "@type": "type.googleapis.com/c1.connector.v2.RoleTrait",
+                        "profile": {
+                            "aws_arn": "arn:aws:iam::110025230963:role/amplify-dermoseplatform-staging-185039-authRole",
+                            "aws_path": "/",
+                            "aws_role_description": "",
+                            "aws_role_name": "amplify-dermoseplatform-staging-185039-authRole",
+                            "aws_tags": {}
+                        }
+                    }
+                ]
+            },
+            "resourceType": {
+                "id": "role",
+                "displayName": "IAM Role",
+                "traits": [
+                    "TRAIT_ROLE"
+                ],
+                "annotations": [
+                    {
+                        "@type": "type.googleapis.com/c1.connector.v2.V1Identifier",
+                        "id": "role"
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "id": {
+                    "resourceType": "role",
+                    "resource": "arn:aws:iam::110025230963:role/amplify-dermoseplatform-staging-185039-unauthRole"
+                },
+                "displayName": "amplify-dermoseplatform-staging-185039-unauthRole",
+                "annotations": [
+                    {
+                        "@type": "type.googleapis.com/c1.connector.v2.V1Identifier",
+                        "id": "AROARTHQDZJZVMYK5AQDV"
+                    },
+                    {
+                        "@type": "type.googleapis.com/c1.connector.v2.RoleTrait",
+                        "profile": {
+                            "aws_arn": "arn:aws:iam::110025230963:role/amplify-dermoseplatform-staging-185039-unauthRole",
+                            "aws_path": "/",
+                            "aws_role_description": "",
+                            "aws_role_name": "amplify-dermoseplatform-staging-185039-unauthRole",
+                            "aws_tags": {}
+                        }
+                    }
+                ]
+            },
+            "resourceType": {
+                "id": "role",
+                "displayName": "IAM Role",
+                "traits": [
+                    "TRAIT_ROLE"
+                ],
+                "annotations": [
+                    {
+                        "@type": "type.googleapis.com/c1.connector.v2.V1Identifier",
+                        "id": "role"
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "id": {
+                    "resourceType": "role",
+                    "resource": "arn:aws:iam::110025230963:role/amplify-login-lambda-06b02b8b"
+                },
+                "displayName": "amplify-login-lambda-06b02b8b",
+                "annotations": [
+                    {
+                        "@type": "type.googleapis.com/c1.connector.v2.V1Identifier",
+                        "id": "AROARTHQDZJZ7GV5CVJJ5"
+                    },
+                    {
+                        "@type": "type.googleapis.com/c1.connector.v2.RoleTrait",
+                        "profile": {
+                            "aws_arn": "arn:aws:iam::110025230963:role/amplify-login-lambda-06b02b8b",
+                            "aws_path": "/",
+                            "aws_role_description": "",
+                            "aws_role_name": "amplify-login-lambda-06b02b8b",
+                            "aws_tags": {}
+                        }
+                    }
+                ]
+            },
+            "resourceType": {
+                "id": "role",
+                "displayName": "IAM Role",
+                "traits": [
+                    "TRAIT_ROLE"
+                ],
+                "annotations": [
+                    {
+                        "@type": "type.googleapis.com/c1.connector.v2.V1Identifier",
+                        "id": "role"
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "id": {
+                    "resourceType": "role",
+                    "resource": "arn:aws:iam::110025230963:role/amplify-login-lambda-1c933183"
+                },
+                "displayName": "amplify-login-lambda-1c933183",
+                "annotations": [
+                    {
+                        "@type": "type.googleapis.com/c1.connector.v2.V1Identifier",
+                        "id": "AROARTHQDZJZYFAW3QNJ6"
+                    },
+                    {
+                        "@type": "type.googleapis.com/c1.connector.v2.RoleTrait",
+                        "profile": {
+                            "aws_arn": "arn:aws:iam::110025230963:role/amplify-login-lambda-1c933183",
+                            "aws_path": "/",
+                            "aws_role_description": "",
+                            "aws_role_name": "amplify-login-lambda-1c933183",
+                            "aws_tags": {}
+                        }
+                    }
+                ]
+            },
+            "resourceType": {
+                "id": "role",
+                "displayName": "IAM Role",
+                "traits": [
+                    "TRAIT_ROLE"
+                ],
+                "annotations": [
+                    {
+                        "@type": "type.googleapis.com/c1.connector.v2.V1Identifier",
+                        "id": "role"
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "id": {
+                    "resourceType": "role",
+                    "resource": "arn:aws:iam::110025230963:role/amplify-login-lambda-2e4064af"
+                },
+                "displayName": "amplify-login-lambda-2e4064af",
+                "annotations": [
+                    {
+                        "@type": "type.googleapis.com/c1.connector.v2.V1Identifier",
+                        "id": "AROARTHQDZJZUS6LWNLVT"
+                    },
+                    {
+                        "@type": "type.googleapis.com/c1.connector.v2.RoleTrait",
+                        "profile": {
+                            "aws_arn": "arn:aws:iam::110025230963:role/amplify-login-lambda-2e4064af",
+                            "aws_path": "/",
+                            "aws_role_description": "",
+                            "aws_role_name": "amplify-login-lambda-2e4064af",
+                            "aws_tags": {}
+                        }
+                    }
+                ]
+            },
+            "resourceType": {
+                "id": "role",
+                "displayName": "IAM Role",
+                "traits": [
+                    "TRAIT_ROLE"
+                ],
+                "annotations": [
+                    {
+                        "@type": "type.googleapis.com/c1.connector.v2.V1Identifier",
+                        "id": "role"
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "id": {
+                    "resourceType": "role",
+                    "resource": "arn:aws:iam::110025230963:role/amplify-login-lambda-4dc60498"
+                },
+                "displayName": "amplify-login-lambda-4dc60498",
+                "annotations": [
+                    {
+                        "@type": "type.googleapis.com/c1.connector.v2.V1Identifier",
+                        "id": "AROARTHQDZJZ5THOBRF3J"
+                    },
+                    {
+                        "@type": "type.googleapis.com/c1.connector.v2.RoleTrait",
+                        "profile": {
+                            "aws_arn": "arn:aws:iam::110025230963:role/amplify-login-lambda-4dc60498",
+                            "aws_path": "/",
+                            "aws_role_description": "",
+                            "aws_role_name": "amplify-login-lambda-4dc60498",
+                            "aws_tags": {}
+                        }
+                    }
+                ]
+            },
+            "resourceType": {
+                "id": "role",
+                "displayName": "IAM Role",
+                "traits": [
+                    "TRAIT_ROLE"
+                ],
+                "annotations": [
+                    {
+                        "@type": "type.googleapis.com/c1.connector.v2.V1Identifier",
+                        "id": "role"
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "id": {
+                    "resourceType": "role",
+                    "resource": "arn:aws:iam::110025230963:role/amplify-login-lambda-91e7c8a9"
+                },
+                "displayName": "amplify-login-lambda-91e7c8a9",
+                "annotations": [
+                    {
+                        "@type": "type.googleapis.com/c1.connector.v2.V1Identifier",
+                        "id": "AROARTHQDZJZRVL5ZNLOK"
+                    },
+                    {
+                        "@type": "type.googleapis.com/c1.connector.v2.RoleTrait",
+                        "profile": {
+                            "aws_arn": "arn:aws:iam::110025230963:role/amplify-login-lambda-91e7c8a9",
+                            "aws_path": "/",
+                            "aws_role_description": "",
+                            "aws_role_name": "amplify-login-lambda-91e7c8a9",
+                            "aws_tags": {}
+                        }
+                    }
+                ]
+            },
+            "resourceType": {
+                "id": "role",
+                "displayName": "IAM Role",
+                "traits": [
+                    "TRAIT_ROLE"
+                ],
+                "annotations": [
+                    {
+                        "@type": "type.googleapis.com/c1.connector.v2.V1Identifier",
+                        "id": "role"
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "id": {
+                    "resourceType": "role",
+                    "resource": "arn:aws:iam::110025230963:role/amplify-login-lambda-cc47f319"
+                },
+                "displayName": "amplify-login-lambda-cc47f319",
+                "annotations": [
+                    {
+                        "@type": "type.googleapis.com/c1.connector.v2.V1Identifier",
+                        "id": "AROARTHQDZJZV7U455HQS"
+                    },
+                    {
+                        "@type": "type.googleapis.com/c1.connector.v2.RoleTrait",
+                        "profile": {
+                            "aws_arn": "arn:aws:iam::110025230963:role/amplify-login-lambda-cc47f319",
+                            "aws_path": "/",
+                            "aws_role_description": "",
+                            "aws_role_name": "amplify-login-lambda-cc47f319",
+                            "aws_tags": {}
+                        }
+                    }
+                ]
+            },
+            "resourceType": {
+                "id": "role",
+                "displayName": "IAM Role",
+                "traits": [
+                    "TRAIT_ROLE"
+                ],
+                "annotations": [
+                    {
+                        "@type": "type.googleapis.com/c1.connector.v2.V1Identifier",
+                        "id": "role"
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "id": {
+                    "resourceType": "role",
+                    "resource": "arn:aws:iam::110025230963:role/amplify-login-lambda-cfb35225"
+                },
+                "displayName": "amplify-login-lambda-cfb35225",
+                "annotations": [
+                    {
+                        "@type": "type.googleapis.com/c1.connector.v2.V1Identifier",
+                        "id": "AROARTHQDZJZ5F6PO63BZ"
+                    },
+                    {
+                        "@type": "type.googleapis.com/c1.connector.v2.RoleTrait",
+                        "profile": {
+                            "aws_arn": "arn:aws:iam::110025230963:role/amplify-login-lambda-cfb35225",
+                            "aws_path": "/",
+                            "aws_role_description": "",
+                            "aws_role_name": "amplify-login-lambda-cfb35225",
+                            "aws_tags": {}
+                        }
+                    }
+                ]
+            },
+            "resourceType": {
+                "id": "role",
+                "displayName": "IAM Role",
+                "traits": [
+                    "TRAIT_ROLE"
+                ],
+                "annotations": [
+                    {
+                        "@type": "type.googleapis.com/c1.connector.v2.V1Identifier",
+                        "id": "role"
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "id": {
+                    "resourceType": "role",
+                    "resource": "arn:aws:iam::110025230963:role/amplify-login-lambda-d99183f3"
+                },
+                "displayName": "amplify-login-lambda-d99183f3",
+                "annotations": [
+                    {
+                        "@type": "type.googleapis.com/c1.connector.v2.V1Identifier",
+                        "id": "AROARTHQDZJZXEUQ3FCZH"
+                    },
+                    {
+                        "@type": "type.googleapis.com/c1.connector.v2.RoleTrait",
+                        "profile": {
+                            "aws_arn": "arn:aws:iam::110025230963:role/amplify-login-lambda-d99183f3",
+                            "aws_path": "/",
+                            "aws_role_description": "",
+                            "aws_role_name": "amplify-login-lambda-d99183f3",
+                            "aws_tags": {}
+                        }
+                    }
+                ]
+            },
+            "resourceType": {
+                "id": "role",
+                "displayName": "IAM Role",
+                "traits": [
+                    "TRAIT_ROLE"
+                ],
+                "annotations": [
+                    {
+                        "@type": "type.googleapis.com/c1.connector.v2.V1Identifier",
+                        "id": "role"
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "id": {
+                    "resourceType": "role",
+                    "resource": "arn:aws:iam::110025230963:role/amplify-login-lambda-df32730a"
+                },
+                "displayName": "amplify-login-lambda-df32730a",
+                "annotations": [
+                    {
+                        "@type": "type.googleapis.com/c1.connector.v2.V1Identifier",
+                        "id": "AROARTHQDZJZRC23IOXQU"
+                    },
+                    {
+                        "@type": "type.googleapis.com/c1.connector.v2.RoleTrait",
+                        "profile": {
+                            "aws_arn": "arn:aws:iam::110025230963:role/amplify-login-lambda-df32730a",
+                            "aws_path": "/",
+                            "aws_role_description": "",
+                            "aws_role_name": "amplify-login-lambda-df32730a",
+                            "aws_tags": {}
+                        }
+                    }
+                ]
+            },
+            "resourceType": {
+                "id": "role",
+                "displayName": "IAM Role",
+                "traits": [
+                    "TRAIT_ROLE"
+                ],
+                "annotations": [
+                    {
+                        "@type": "type.googleapis.com/c1.connector.v2.V1Identifier",
+                        "id": "role"
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "id": {
+                    "resourceType": "role",
+                    "resource": "arn:aws:iam::110025230963:role/amplify-vasoscan-staging-32732-authRole"
+                },
+                "displayName": "amplify-vasoscan-staging-32732-authRole",
+                "annotations": [
+                    {
+                        "@type": "type.googleapis.com/c1.connector.v2.V1Identifier",
+                        "id": "AROARTHQDZJZQM454LYIG"
+                    },
+                    {
+                        "@type": "type.googleapis.com/c1.connector.v2.RoleTrait",
+                        "profile": {
+                            "aws_arn": "arn:aws:iam::110025230963:role/amplify-vasoscan-staging-32732-authRole",
+                            "aws_path": "/",
+                            "aws_role_description": "",
+                            "aws_role_name": "amplify-vasoscan-staging-32732-authRole",
+                            "aws_tags": {}
+                        }
+                    }
+                ]
+            },
+            "resourceType": {
+                "id": "role",
+                "displayName": "IAM Role",
+                "traits": [
+                    "TRAIT_ROLE"
+                ],
+                "annotations": [
+                    {
+                        "@type": "type.googleapis.com/c1.connector.v2.V1Identifier",
+                        "id": "role"
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "id": {
+                    "resourceType": "role",
+                    "resource": "arn:aws:iam::110025230963:role/amplify-vasoscan-staging-32732-unauthRole"
+                },
+                "displayName": "amplify-vasoscan-staging-32732-unauthRole",
+                "annotations": [
+                    {
+                        "@type": "type.googleapis.com/c1.connector.v2.V1Identifier",
+                        "id": "AROARTHQDZJZ2JYTCTVUR"
+                    },
+                    {
+                        "@type": "type.googleapis.com/c1.connector.v2.RoleTrait",
+                        "profile": {
+                            "aws_arn": "arn:aws:iam::110025230963:role/amplify-vasoscan-staging-32732-unauthRole",
+                            "aws_path": "/",
+                            "aws_role_description": "",
+                            "aws_role_name": "amplify-vasoscan-staging-32732-unauthRole",
+                            "aws_tags": {}
+                        }
+                    }
+                ]
+            },
+            "resourceType": {
+                "id": "role",
+                "displayName": "IAM Role",
+                "traits": [
+                    "TRAIT_ROLE"
+                ],
+                "annotations": [
+                    {
+                        "@type": "type.googleapis.com/c1.connector.v2.V1Identifier",
+                        "id": "role"
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "id": {
+                    "resourceType": "role",
+                    "resource": "arn:aws:iam::110025230963:role/amplify-website-staging-12909-authRole"
+                },
+                "displayName": "amplify-website-staging-12909-authRole",
+                "annotations": [
+                    {
+                        "@type": "type.googleapis.com/c1.connector.v2.V1Identifier",
+                        "id": "AROARTHQDZJZXCBSHM3ZW"
+                    },
+                    {
+                        "@type": "type.googleapis.com/c1.connector.v2.RoleTrait",
+                        "profile": {
+                            "aws_arn": "arn:aws:iam::110025230963:role/amplify-website-staging-12909-authRole",
+                            "aws_path": "/",
+                            "aws_role_description": "",
+                            "aws_role_name": "amplify-website-staging-12909-authRole",
+                            "aws_tags": {}
+                        }
+                    }
+                ]
+            },
+            "resourceType": {
+                "id": "role",
+                "displayName": "IAM Role",
+                "traits": [
+                    "TRAIT_ROLE"
+                ],
+                "annotations": [
+                    {
+                        "@type": "type.googleapis.com/c1.connector.v2.V1Identifier",
+                        "id": "role"
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "id": {
+                    "resourceType": "role",
+                    "resource": "arn:aws:iam::110025230963:role/amplify-website-staging-12909-unauthRole"
+                },
+                "displayName": "amplify-website-staging-12909-unauthRole",
+                "annotations": [
+                    {
+                        "@type": "type.googleapis.com/c1.connector.v2.V1Identifier",
+                        "id": "AROARTHQDZJZTHBAPWNE3"
+                    },
+                    {
+                        "@type": "type.googleapis.com/c1.connector.v2.RoleTrait",
+                        "profile": {
+                            "aws_arn": "arn:aws:iam::110025230963:role/amplify-website-staging-12909-unauthRole",
+                            "aws_path": "/",
+                            "aws_role_description": "",
+                            "aws_role_name": "amplify-website-staging-12909-unauthRole",
+                            "aws_tags": {}
+                        }
+                    }
+                ]
+            },
+            "resourceType": {
+                "id": "role",
+                "displayName": "IAM Role",
+                "traits": [
+                    "TRAIT_ROLE"
+                ],
+                "annotations": [
+                    {
+                        "@type": "type.googleapis.com/c1.connector.v2.V1Identifier",
+                        "id": "role"
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "id": {
+                    "resourceType": "role",
+                    "resource": "arn:aws:iam::110025230963:role/amplifyconsole-backend-role"
+                },
+                "displayName": "amplifyconsole-backend-role",
+                "annotations": [
+                    {
+                        "@type": "type.googleapis.com/c1.connector.v2.V1Identifier",
+                        "id": "AROARTHQDZJZ45QWDFZJH"
+                    },
+                    {
+                        "@type": "type.googleapis.com/c1.connector.v2.RoleTrait",
+                        "profile": {
+                            "aws_arn": "arn:aws:iam::110025230963:role/amplifyconsole-backend-role",
+                            "aws_path": "/",
+                            "aws_role_description": "Allows Amplify Backend Deployment to access AWS resources on your behalf.",
+                            "aws_role_name": "amplifyconsole-backend-role",
+                            "aws_tags": {}
+                        }
+                    }
+                ]
+            },
+            "resourceType": {
+                "id": "role",
+                "displayName": "IAM Role",
+                "traits": [
+                    "TRAIT_ROLE"
+                ],
+                "annotations": [
+                    {
+                        "@type": "type.googleapis.com/c1.connector.v2.V1Identifier",
+                        "id": "role"
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "id": {
+                    "resourceType": "role",
+                    "resource": "arn:aws:iam::110025230963:role/AmplifyDataStoreIAMRb752cd-ethfjyos35fhlas2s5la4432pe-staging"
+                },
+                "displayName": "AmplifyDataStoreIAMRb752cd-ethfjyos35fhlas2s5la4432pe-staging",
+                "annotations": [
+                    {
+                        "@type": "type.googleapis.com/c1.connector.v2.V1Identifier",
+                        "id": "AROARTHQDZJZ4ZP4LH6ZY"
+                    },
+                    {
+                        "@type": "type.googleapis.com/c1.connector.v2.RoleTrait",
+                        "profile": {
+                            "aws_arn": "arn:aws:iam::110025230963:role/AmplifyDataStoreIAMRb752cd-ethfjyos35fhlas2s5la4432pe-staging",
+                            "aws_path": "/",
+                            "aws_role_description": "",
+                            "aws_role_name": "AmplifyDataStoreIAMRb752cd-ethfjyos35fhlas2s5la4432pe-staging",
+                            "aws_tags": {}
+                        }
+                    }
+                ]
+            },
+            "resourceType": {
+                "id": "role",
+                "displayName": "IAM Role",
+                "traits": [
+                    "TRAIT_ROLE"
+                ],
+                "annotations": [
+                    {
+                        "@type": "type.googleapis.com/c1.connector.v2.V1Identifier",
+                        "id": "role"
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "id": {
+                    "resourceType": "role",
+                    "resource": "arn:aws:iam::110025230963:role/AmplifyDataStoreIAMRb752cd-knerne3d5bfz3bdsobltyjwl4y-production"
+                },
+                "displayName": "AmplifyDataStoreIAMRb752cd-knerne3d5bfz3bdsobltyjwl4y-production",
+                "annotations": [
+                    {
+                        "@type": "type.googleapis.com/c1.connector.v2.V1Identifier",
+                        "id": "AROARTHQDZJZX3UMOH5SJ"
+                    },
+                    {
+                        "@type": "type.googleapis.com/c1.connector.v2.RoleTrait",
+                        "profile": {
+                            "aws_arn": "arn:aws:iam::110025230963:role/AmplifyDataStoreIAMRb752cd-knerne3d5bfz3bdsobltyjwl4y-production",
+                            "aws_path": "/",
+                            "aws_role_description": "",
+                            "aws_role_name": "AmplifyDataStoreIAMRb752cd-knerne3d5bfz3bdsobltyjwl4y-production",
+                            "aws_tags": {}
+                        }
+                    }
+                ]
+            },
+            "resourceType": {
+                "id": "role",
+                "displayName": "IAM Role",
+                "traits": [
+                    "TRAIT_ROLE"
+                ],
+                "annotations": [
+                    {
+                        "@type": "type.googleapis.com/c1.connector.v2.V1Identifier",
+                        "id": "role"
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "id": {
+                    "resourceType": "role",
+                    "resource": "arn:aws:iam::110025230963:role/aws-elasticbeanstalk-ec2-role"
+                },
+                "displayName": "aws-elasticbeanstalk-ec2-role",
+                "annotations": [
+                    {
+                        "@type": "type.googleapis.com/c1.connector.v2.V1Identifier",
+                        "id": "AROARTHQDZJZ5TDPD2UJI"
+                    },
+                    {
+                        "@type": "type.googleapis.com/c1.connector.v2.RoleTrait",
+                        "profile": {
+                            "aws_arn": "arn:aws:iam::110025230963:role/aws-elasticbeanstalk-ec2-role",
+                            "aws_path": "/",
+                            "aws_role_description": "",
+                            "aws_role_name": "aws-elasticbeanstalk-ec2-role",
+                            "aws_tags": {}
+                        }
+                    }
+                ]
+            },
+            "resourceType": {
+                "id": "role",
+                "displayName": "IAM Role",
+                "traits": [
+                    "TRAIT_ROLE"
+                ],
+                "annotations": [
+                    {
+                        "@type": "type.googleapis.com/c1.connector.v2.V1Identifier",
+                        "id": "role"
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "id": {
+                    "resourceType": "role",
+                    "resource": "arn:aws:iam::110025230963:role/aws-elasticbeanstalk-service-role"
+                },
+                "displayName": "aws-elasticbeanstalk-service-role",
+                "annotations": [
+                    {
+                        "@type": "type.googleapis.com/c1.connector.v2.V1Identifier",
+                        "id": "AROARTHQDZJZZ2XOWFAE2"
+                    },
+                    {
+                        "@type": "type.googleapis.com/c1.connector.v2.RoleTrait",
+                        "profile": {
+                            "aws_arn": "arn:aws:iam::110025230963:role/aws-elasticbeanstalk-service-role",
+                            "aws_path": "/",
+                            "aws_role_description": "",
+                            "aws_role_name": "aws-elasticbeanstalk-service-role",
+                            "aws_tags": {}
+                        }
+                    }
+                ]
+            },
+            "resourceType": {
+                "id": "role",
+                "displayName": "IAM Role",
+                "traits": [
+                    "TRAIT_ROLE"
+                ],
+                "annotations": [
+                    {
+                        "@type": "type.googleapis.com/c1.connector.v2.V1Identifier",
+                        "id": "role"
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "id": {
+                    "resourceType": "role",
+                    "resource": "arn:aws:iam::110025230963:role/aws-reserved/sso.amazonaws.com/us-west-2/AWSReservedSSO_AdministratorAccess_4fecb12de5841204"
+                },
+                "displayName": "AWSReservedSSO_AdministratorAccess_4fecb12de5841204",
+                "annotations": [
+                    {
+                        "@type": "type.googleapis.com/c1.connector.v2.V1Identifier",
+                        "id": "AROARTHQDZJZZ37VBRM3S"
+                    },
+                    {
+                        "@type": "type.googleapis.com/c1.connector.v2.RoleTrait",
+                        "profile": {
+                            "aws_arn": "arn:aws:iam::110025230963:role/aws-reserved/sso.amazonaws.com/us-west-2/AWSReservedSSO_AdministratorAccess_4fecb12de5841204",
+                            "aws_path": "/aws-reserved/sso.amazonaws.com/us-west-2/",
+                            "aws_role_description": "",
+                            "aws_role_name": "AWSReservedSSO_AdministratorAccess_4fecb12de5841204",
+                            "aws_tags": {}
+                        }
+                    }
+                ]
+            },
+            "resourceType": {
+                "id": "role",
+                "displayName": "IAM Role",
+                "traits": [
+                    "TRAIT_ROLE"
+                ],
+                "annotations": [
+                    {
+                        "@type": "type.googleapis.com/c1.connector.v2.V1Identifier",
+                        "id": "role"
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "id": {
+                    "resourceType": "role",
+                    "resource": "arn:aws:iam::110025230963:role/aws-reserved/sso.amazonaws.com/us-west-2/AWSReservedSSO_PowerUserAccess_2af39298fff57144"
+                },
+                "displayName": "AWSReservedSSO_PowerUserAccess_2af39298fff57144",
+                "annotations": [
+                    {
+                        "@type": "type.googleapis.com/c1.connector.v2.V1Identifier",
+                        "id": "AROARTHQDZJZSJT5UJJWO"
+                    },
+                    {
+                        "@type": "type.googleapis.com/c1.connector.v2.RoleTrait",
+                        "profile": {
+                            "aws_arn": "arn:aws:iam::110025230963:role/aws-reserved/sso.amazonaws.com/us-west-2/AWSReservedSSO_PowerUserAccess_2af39298fff57144",
+                            "aws_path": "/aws-reserved/sso.amazonaws.com/us-west-2/",
+                            "aws_role_description": "",
+                            "aws_role_name": "AWSReservedSSO_PowerUserAccess_2af39298fff57144",
+                            "aws_tags": {}
+                        }
+                    }
+                ]
+            },
+            "resourceType": {
+                "id": "role",
+                "displayName": "IAM Role",
+                "traits": [
+                    "TRAIT_ROLE"
+                ],
+                "annotations": [
+                    {
+                        "@type": "type.googleapis.com/c1.connector.v2.V1Identifier",
+                        "id": "role"
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "id": {
+                    "resourceType": "role",
+                    "resource": "arn:aws:iam::110025230963:role/aws-service-role/sagemaker.amazonaws.com/AWSServiceRoleForAmazonSageMakerNotebooks"
+                },
+                "displayName": "AWSServiceRoleForAmazonSageMakerNotebooks",
+                "annotations": [
+                    {
+                        "@type": "type.googleapis.com/c1.connector.v2.V1Identifier",
+                        "id": "AROARTHQDZJZ6R675JZX5"
+                    },
+                    {
+                        "@type": "type.googleapis.com/c1.connector.v2.RoleTrait",
+                        "profile": {
+                            "aws_arn": "arn:aws:iam::110025230963:role/aws-service-role/sagemaker.amazonaws.com/AWSServiceRoleForAmazonSageMakerNotebooks",
+                            "aws_path": "/aws-service-role/sagemaker.amazonaws.com/",
+                            "aws_role_description": "AWS SageMaker Notebooks Service Linked Role",
+                            "aws_role_name": "AWSServiceRoleForAmazonSageMakerNotebooks",
+                            "aws_tags": {}
+                        }
+                    }
+                ]
+            },
+            "resourceType": {
+                "id": "role",
+                "displayName": "IAM Role",
+                "traits": [
+                    "TRAIT_ROLE"
+                ],
+                "annotations": [
+                    {
+                        "@type": "type.googleapis.com/c1.connector.v2.V1Identifier",
+                        "id": "role"
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "id": {
+                    "resourceType": "role",
+                    "resource": "arn:aws:iam::110025230963:role/aws-service-role/ops.apigateway.amazonaws.com/AWSServiceRoleForAPIGateway"
+                },
+                "displayName": "AWSServiceRoleForAPIGateway",
+                "annotations": [
+                    {
+                        "@type": "type.googleapis.com/c1.connector.v2.V1Identifier",
+                        "id": "AROARTHQDZJZ3LHYO63OM"
+                    },
+                    {
+                        "@type": "type.googleapis.com/c1.connector.v2.RoleTrait",
+                        "profile": {
+                            "aws_arn": "arn:aws:iam::110025230963:role/aws-service-role/ops.apigateway.amazonaws.com/AWSServiceRoleForAPIGateway",
+                            "aws_path": "/aws-service-role/ops.apigateway.amazonaws.com/",
+                            "aws_role_description": "The Service Linked Role is used by Amazon API Gateway.",
+                            "aws_role_name": "AWSServiceRoleForAPIGateway",
+                            "aws_tags": {}
+                        }
+                    }
+                ]
+            },
+            "resourceType": {
+                "id": "role",
+                "displayName": "IAM Role",
+                "traits": [
+                    "TRAIT_ROLE"
+                ],
+                "annotations": [
+                    {
+                        "@type": "type.googleapis.com/c1.connector.v2.V1Identifier",
+                        "id": "role"
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "id": {
+                    "resourceType": "role",
+                    "resource": "arn:aws:iam::110025230963:role/aws-service-role/autoscaling.amazonaws.com/AWSServiceRoleForAutoScaling"
+                },
+                "displayName": "AWSServiceRoleForAutoScaling",
+                "annotations": [
+                    {
+                        "@type": "type.googleapis.com/c1.connector.v2.V1Identifier",
+                        "id": "AROARTHQDZJZWYTIUWPVT"
+                    },
+                    {
+                        "@type": "type.googleapis.com/c1.connector.v2.RoleTrait",
+                        "profile": {
+                            "aws_arn": "arn:aws:iam::110025230963:role/aws-service-role/autoscaling.amazonaws.com/AWSServiceRoleForAutoScaling",
+                            "aws_path": "/aws-service-role/autoscaling.amazonaws.com/",
+                            "aws_role_description": "Default Service-Linked Role enables access to AWS Services and Resources used or managed by Auto Scaling",
+                            "aws_role_name": "AWSServiceRoleForAutoScaling",
+                            "aws_tags": {}
+                        }
+                    }
+                ]
+            },
+            "resourceType": {
+                "id": "role",
+                "displayName": "IAM Role",
+                "traits": [
+                    "TRAIT_ROLE"
+                ],
+                "annotations": [
+                    {
+                        "@type": "type.googleapis.com/c1.connector.v2.V1Identifier",
+                        "id": "role"
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "id": {
+                    "resourceType": "role",
+                    "resource": "arn:aws:iam::110025230963:role/aws-service-role/license-manager.amazonaws.com/AWSServiceRoleForAWSLicenseManagerRole"
+                },
+                "displayName": "AWSServiceRoleForAWSLicenseManagerRole",
+                "annotations": [
+                    {
+                        "@type": "type.googleapis.com/c1.connector.v2.V1Identifier",
+                        "id": "AROARTHQDZJZVBP4YNWQS"
+                    },
+                    {
+                        "@type": "type.googleapis.com/c1.connector.v2.RoleTrait",
+                        "profile": {
+                            "aws_arn": "arn:aws:iam::110025230963:role/aws-service-role/license-manager.amazonaws.com/AWSServiceRoleForAWSLicenseManagerRole",
+                            "aws_path": "/aws-service-role/license-manager.amazonaws.com/",
+                            "aws_role_description": "Service linked role for License Manager.",
+                            "aws_role_name": "AWSServiceRoleForAWSLicenseManagerRole",
+                            "aws_tags": {}
+                        }
+                    }
+                ]
+            },
+            "resourceType": {
+                "id": "role",
+                "displayName": "IAM Role",
+                "traits": [
+                    "TRAIT_ROLE"
+                ],
+                "annotations": [
+                    {
+                        "@type": "type.googleapis.com/c1.connector.v2.V1Identifier",
+                        "id": "role"
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "id": {
+                    "resourceType": "role",
+                    "resource": "arn:aws:iam::110025230963:role/aws-service-role/events.amazonaws.com/AWSServiceRoleForCloudWatchEvents"
+                },
+                "displayName": "AWSServiceRoleForCloudWatchEvents",
+                "annotations": [
+                    {
+                        "@type": "type.googleapis.com/c1.connector.v2.V1Identifier",
+                        "id": "AROARTHQDZJZ2HO3W72IE"
+                    },
+                    {
+                        "@type": "type.googleapis.com/c1.connector.v2.RoleTrait",
+                        "profile": {
+                            "aws_arn": "arn:aws:iam::110025230963:role/aws-service-role/events.amazonaws.com/AWSServiceRoleForCloudWatchEvents",
+                            "aws_path": "/aws-service-role/events.amazonaws.com/",
+                            "aws_role_description": "",
+                            "aws_role_name": "AWSServiceRoleForCloudWatchEvents",
+                            "aws_tags": {}
+                        }
+                    }
+                ]
+            },
+            "resourceType": {
+                "id": "role",
+                "displayName": "IAM Role",
+                "traits": [
+                    "TRAIT_ROLE"
+                ],
+                "annotations": [
+                    {
+                        "@type": "type.googleapis.com/c1.connector.v2.V1Identifier",
+                        "id": "role"
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "id": {
+                    "resourceType": "role",
+                    "resource": "arn:aws:iam::110025230963:role/aws-service-role/ecs.amazonaws.com/AWSServiceRoleForECS"
+                },
+                "displayName": "AWSServiceRoleForECS",
+                "annotations": [
+                    {
+                        "@type": "type.googleapis.com/c1.connector.v2.V1Identifier",
+                        "id": "AROARTHQDZJZ7SBQWCGA2"
+                    },
+                    {
+                        "@type": "type.googleapis.com/c1.connector.v2.RoleTrait",
+                        "profile": {
+                            "aws_arn": "arn:aws:iam::110025230963:role/aws-service-role/ecs.amazonaws.com/AWSServiceRoleForECS",
+                            "aws_path": "/aws-service-role/ecs.amazonaws.com/",
+                            "aws_role_description": "Role to enable Amazon ECS to manage your cluster.",
+                            "aws_role_name": "AWSServiceRoleForECS",
+                            "aws_tags": {}
+                        }
+                    }
+                ]
+            },
+            "resourceType": {
+                "id": "role",
+                "displayName": "IAM Role",
+                "traits": [
+                    "TRAIT_ROLE"
+                ],
+                "annotations": [
+                    {
+                        "@type": "type.googleapis.com/c1.connector.v2.V1Identifier",
+                        "id": "role"
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "id": {
+                    "resourceType": "role",
+                    "resource": "arn:aws:iam::110025230963:role/aws-service-role/managedupdates.elasticbeanstalk.amazonaws.com/AWSServiceRoleForElasticBeanstalkManagedUpdates"
+                },
+                "displayName": "AWSServiceRoleForElasticBeanstalkManagedUpdates",
+                "annotations": [
+                    {
+                        "@type": "type.googleapis.com/c1.connector.v2.V1Identifier",
+                        "id": "AROARTHQDZJZ2UOHZW3JW"
+                    },
+                    {
+                        "@type": "type.googleapis.com/c1.connector.v2.RoleTrait",
+                        "profile": {
+                            "aws_arn": "arn:aws:iam::110025230963:role/aws-service-role/managedupdates.elasticbeanstalk.amazonaws.com/AWSServiceRoleForElasticBeanstalkManagedUpdates",
+                            "aws_path": "/aws-service-role/managedupdates.elasticbeanstalk.amazonaws.com/",
+                            "aws_role_description": "",
+                            "aws_role_name": "AWSServiceRoleForElasticBeanstalkManagedUpdates",
+                            "aws_tags": {}
+                        }
+                    }
+                ]
+            },
+            "resourceType": {
+                "id": "role",
+                "displayName": "IAM Role",
+                "traits": [
+                    "TRAIT_ROLE"
+                ],
+                "annotations": [
+                    {
+                        "@type": "type.googleapis.com/c1.connector.v2.V1Identifier",
+                        "id": "role"
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "id": {
+                    "resourceType": "role",
+                    "resource": "arn:aws:iam::110025230963:role/aws-service-role/elasticloadbalancing.amazonaws.com/AWSServiceRoleForElasticLoadBalancing"
+                },
+                "displayName": "AWSServiceRoleForElasticLoadBalancing",
+                "annotations": [
+                    {
+                        "@type": "type.googleapis.com/c1.connector.v2.V1Identifier",
+                        "id": "AROARTHQDZJZ5C3VUQ6RP"
+                    },
+                    {
+                        "@type": "type.googleapis.com/c1.connector.v2.RoleTrait",
+                        "profile": {
+                            "aws_arn": "arn:aws:iam::110025230963:role/aws-service-role/elasticloadbalancing.amazonaws.com/AWSServiceRoleForElasticLoadBalancing",
+                            "aws_path": "/aws-service-role/elasticloadbalancing.amazonaws.com/",
+                            "aws_role_description": "Allows ELB to call AWS services on your behalf.",
+                            "aws_role_name": "AWSServiceRoleForElasticLoadBalancing",
+                            "aws_tags": {}
+                        }
+                    }
+                ]
+            },
+            "resourceType": {
+                "id": "role",
+                "displayName": "IAM Role",
+                "traits": [
+                    "TRAIT_ROLE"
+                ],
+                "annotations": [
+                    {
+                        "@type": "type.googleapis.com/c1.connector.v2.V1Identifier",
+                        "id": "role"
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "id": {
+                    "resourceType": "role",
+                    "resource": "arn:aws:iam::110025230963:role/aws-service-role/organizations.amazonaws.com/AWSServiceRoleForOrganizations"
+                },
+                "displayName": "AWSServiceRoleForOrganizations",
+                "annotations": [
+                    {
+                        "@type": "type.googleapis.com/c1.connector.v2.V1Identifier",
+                        "id": "AROARTHQDZJZ27IMD7IQ7"
+                    },
+                    {
+                        "@type": "type.googleapis.com/c1.connector.v2.RoleTrait",
+                        "profile": {
+                            "aws_arn": "arn:aws:iam::110025230963:role/aws-service-role/organizations.amazonaws.com/AWSServiceRoleForOrganizations",
+                            "aws_path": "/aws-service-role/organizations.amazonaws.com/",
+                            "aws_role_description": "Service-linked role used by AWS Organizations to enable integration of other AWS services with Organizations.",
+                            "aws_role_name": "AWSServiceRoleForOrganizations",
+                            "aws_tags": {}
+                        }
+                    }
+                ]
+            },
+            "resourceType": {
+                "id": "role",
+                "displayName": "IAM Role",
+                "traits": [
+                    "TRAIT_ROLE"
+                ],
+                "annotations": [
+                    {
+                        "@type": "type.googleapis.com/c1.connector.v2.V1Identifier",
+                        "id": "role"
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "id": {
+                    "resourceType": "role",
+                    "resource": "arn:aws:iam::110025230963:role/aws-service-role/servicequotas.amazonaws.com/AWSServiceRoleForServiceQuotas"
+                },
+                "displayName": "AWSServiceRoleForServiceQuotas",
+                "annotations": [
+                    {
+                        "@type": "type.googleapis.com/c1.connector.v2.V1Identifier",
+                        "id": "AROARTHQDZJZ7PWBLBQF3"
+                    },
+                    {
+                        "@type": "type.googleapis.com/c1.connector.v2.RoleTrait",
+                        "profile": {
+                            "aws_arn": "arn:aws:iam::110025230963:role/aws-service-role/servicequotas.amazonaws.com/AWSServiceRoleForServiceQuotas",
+                            "aws_path": "/aws-service-role/servicequotas.amazonaws.com/",
+                            "aws_role_description": "A service-linked role is required for Service Quotas to access your service limits.",
+                            "aws_role_name": "AWSServiceRoleForServiceQuotas",
+                            "aws_tags": {}
+                        }
+                    }
+                ]
+            },
+            "resourceType": {
+                "id": "role",
+                "displayName": "IAM Role",
+                "traits": [
+                    "TRAIT_ROLE"
+                ],
+                "annotations": [
+                    {
+                        "@type": "type.googleapis.com/c1.connector.v2.V1Identifier",
+                        "id": "role"
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "id": {
+                    "resourceType": "role",
+                    "resource": "arn:aws:iam::110025230963:role/aws-service-role/sso.amazonaws.com/AWSServiceRoleForSSO"
+                },
+                "displayName": "AWSServiceRoleForSSO",
+                "annotations": [
+                    {
+                        "@type": "type.googleapis.com/c1.connector.v2.V1Identifier",
+                        "id": "AROARTHQDZJZVYHXG6CSC"
+                    },
+                    {
+                        "@type": "type.googleapis.com/c1.connector.v2.RoleTrait",
+                        "profile": {
+                            "aws_arn": "arn:aws:iam::110025230963:role/aws-service-role/sso.amazonaws.com/AWSServiceRoleForSSO",
+                            "aws_path": "/aws-service-role/sso.amazonaws.com/",
+                            "aws_role_description": "Service-linked role used by AWS SSO to manage AWS resources, including IAM roles, policies and SAML IdP on your behalf.",
+                            "aws_role_name": "AWSServiceRoleForSSO",
+                            "aws_tags": {}
+                        }
+                    }
+                ]
+            },
+            "resourceType": {
+                "id": "role",
+                "displayName": "IAM Role",
+                "traits": [
+                    "TRAIT_ROLE"
+                ],
+                "annotations": [
+                    {
+                        "@type": "type.googleapis.com/c1.connector.v2.V1Identifier",
+                        "id": "role"
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "id": {
+                    "resourceType": "role",
+                    "resource": "arn:aws:iam::110025230963:role/aws-service-role/support.amazonaws.com/AWSServiceRoleForSupport"
+                },
+                "displayName": "AWSServiceRoleForSupport",
+                "annotations": [
+                    {
+                        "@type": "type.googleapis.com/c1.connector.v2.V1Identifier",
+                        "id": "AROARTHQDZJZ3RIAKXHBK"
+                    },
+                    {
+                        "@type": "type.googleapis.com/c1.connector.v2.RoleTrait",
+                        "profile": {
+                            "aws_arn": "arn:aws:iam::110025230963:role/aws-service-role/support.amazonaws.com/AWSServiceRoleForSupport",
+                            "aws_path": "/aws-service-role/support.amazonaws.com/",
+                            "aws_role_description": "Enables resource access for AWS to provide billing, administrative and support services",
+                            "aws_role_name": "AWSServiceRoleForSupport",
+                            "aws_tags": {}
+                        }
+                    }
+                ]
+            },
+            "resourceType": {
+                "id": "role",
+                "displayName": "IAM Role",
+                "traits": [
+                    "TRAIT_ROLE"
+                ],
+                "annotations": [
+                    {
+                        "@type": "type.googleapis.com/c1.connector.v2.V1Identifier",
+                        "id": "role"
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "id": {
+                    "resourceType": "role",
+                    "resource": "arn:aws:iam::110025230963:role/aws-service-role/trustedadvisor.amazonaws.com/AWSServiceRoleForTrustedAdvisor"
+                },
+                "displayName": "AWSServiceRoleForTrustedAdvisor",
+                "annotations": [
+                    {
+                        "@type": "type.googleapis.com/c1.connector.v2.V1Identifier",
+                        "id": "AROARTHQDZJZZHK6K4K6M"
+                    },
+                    {
+                        "@type": "type.googleapis.com/c1.connector.v2.RoleTrait",
+                        "profile": {
+                            "aws_arn": "arn:aws:iam::110025230963:role/aws-service-role/trustedadvisor.amazonaws.com/AWSServiceRoleForTrustedAdvisor",
+                            "aws_path": "/aws-service-role/trustedadvisor.amazonaws.com/",
+                            "aws_role_description": "Access for the AWS Trusted Advisor Service to help reduce cost, increase performance, and improve security of your AWS environment.",
+                            "aws_role_name": "AWSServiceRoleForTrustedAdvisor",
+                            "aws_tags": {}
+                        }
+                    }
+                ]
+            },
+            "resourceType": {
+                "id": "role",
+                "displayName": "IAM Role",
+                "traits": [
+                    "TRAIT_ROLE"
+                ],
+                "annotations": [
+                    {
+                        "@type": "type.googleapis.com/c1.connector.v2.V1Identifier",
+                        "id": "role"
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "id": {
+                    "resourceType": "role",
+                    "resource": "arn:aws:iam::110025230963:role/ClinicIAMRole4c2f5e-ethfjyos35fhlas2s5la4432pe-staging"
+                },
+                "displayName": "ClinicIAMRole4c2f5e-ethfjyos35fhlas2s5la4432pe-staging",
+                "annotations": [
+                    {
+                        "@type": "type.googleapis.com/c1.connector.v2.V1Identifier",
+                        "id": "AROARTHQDZJZRPVMWUCBK"
+                    },
+                    {
+                        "@type": "type.googleapis.com/c1.connector.v2.RoleTrait",
+                        "profile": {
+                            "aws_arn": "arn:aws:iam::110025230963:role/ClinicIAMRole4c2f5e-ethfjyos35fhlas2s5la4432pe-staging",
+                            "aws_path": "/",
+                            "aws_role_description": "",
+                            "aws_role_name": "ClinicIAMRole4c2f5e-ethfjyos35fhlas2s5la4432pe-staging",
+                            "aws_tags": {}
+                        }
+                    }
+                ]
+            },
+            "resourceType": {
+                "id": "role",
+                "displayName": "IAM Role",
+                "traits": [
+                    "TRAIT_ROLE"
+                ],
+                "annotations": [
+                    {
+                        "@type": "type.googleapis.com/c1.connector.v2.V1Identifier",
+                        "id": "role"
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "id": {
+                    "resourceType": "role",
+                    "resource": "arn:aws:iam::110025230963:role/ClinicIAMRole4c2f5e-knerne3d5bfz3bdsobltyjwl4y-production"
+                },
+                "displayName": "ClinicIAMRole4c2f5e-knerne3d5bfz3bdsobltyjwl4y-production",
+                "annotations": [
+                    {
+                        "@type": "type.googleapis.com/c1.connector.v2.V1Identifier",
+                        "id": "AROARTHQDZJZQUP5NGNTF"
+                    },
+                    {
+                        "@type": "type.googleapis.com/c1.connector.v2.RoleTrait",
+                        "profile": {
+                            "aws_arn": "arn:aws:iam::110025230963:role/ClinicIAMRole4c2f5e-knerne3d5bfz3bdsobltyjwl4y-production",
+                            "aws_path": "/",
+                            "aws_role_description": "",
+                            "aws_role_name": "ClinicIAMRole4c2f5e-knerne3d5bfz3bdsobltyjwl4y-production",
+                            "aws_tags": {}
+                        }
+                    }
+                ]
+            },
+            "resourceType": {
+                "id": "role",
+                "displayName": "IAM Role",
+                "traits": [
+                    "TRAIT_ROLE"
+                ],
+                "annotations": [
+                    {
+                        "@type": "type.googleapis.com/c1.connector.v2.V1Identifier",
+                        "id": "role"
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "id": {
+                    "resourceType": "role",
+                    "resource": "arn:aws:iam::110025230963:role/service-role/codebuild-deploy-cv-app-service-role"
+                },
+                "displayName": "codebuild-deploy-cv-app-service-role",
+                "annotations": [
+                    {
+                        "@type": "type.googleapis.com/c1.connector.v2.V1Identifier",
+                        "id": "AROARTHQDZJZZT2BVAKLC"
+                    },
+                    {
+                        "@type": "type.googleapis.com/c1.connector.v2.RoleTrait",
+                        "profile": {
+                            "aws_arn": "arn:aws:iam::110025230963:role/service-role/codebuild-deploy-cv-app-service-role",
+                            "aws_path": "/service-role/",
+                            "aws_role_description": "",
+                            "aws_role_name": "codebuild-deploy-cv-app-service-role",
+                            "aws_tags": {}
+                        }
+                    }
+                ]
+            },
+            "resourceType": {
+                "id": "role",
+                "displayName": "IAM Role",
+                "traits": [
+                    "TRAIT_ROLE"
+                ],
+                "annotations": [
+                    {
+                        "@type": "type.googleapis.com/c1.connector.v2.V1Identifier",
+                        "id": "role"
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "id": {
+                    "resourceType": "role",
+                    "resource": "arn:aws:iam::110025230963:role/service-role/ComputerVision-role-1gqjlmdz"
+                },
+                "displayName": "ComputerVision-role-1gqjlmdz",
+                "annotations": [
+                    {
+                        "@type": "type.googleapis.com/c1.connector.v2.V1Identifier",
+                        "id": "AROARTHQDZJZWIEI5YDYR"
+                    },
+                    {
+                        "@type": "type.googleapis.com/c1.connector.v2.RoleTrait",
+                        "profile": {
+                            "aws_arn": "arn:aws:iam::110025230963:role/service-role/ComputerVision-role-1gqjlmdz",
+                            "aws_path": "/service-role/",
+                            "aws_role_description": "",
+                            "aws_role_name": "ComputerVision-role-1gqjlmdz",
+                            "aws_tags": {}
+                        }
+                    }
+                ]
+            },
+            "resourceType": {
+                "id": "role",
+                "displayName": "IAM Role",
+                "traits": [
+                    "TRAIT_ROLE"
+                ],
+                "annotations": [
+                    {
+                        "@type": "type.googleapis.com/c1.connector.v2.V1Identifier",
+                        "id": "role"
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "id": {
+                    "resourceType": "role",
+                    "resource": "arn:aws:iam::110025230963:role/service-role/ComputerVision-role-qblkd6x3"
+                },
+                "displayName": "ComputerVision-role-qblkd6x3",
+                "annotations": [
+                    {
+                        "@type": "type.googleapis.com/c1.connector.v2.V1Identifier",
+                        "id": "AROARTHQDZJZRAUXIZMCJ"
+                    },
+                    {
+                        "@type": "type.googleapis.com/c1.connector.v2.RoleTrait",
+                        "profile": {
+                            "aws_arn": "arn:aws:iam::110025230963:role/service-role/ComputerVision-role-qblkd6x3",
+                            "aws_path": "/service-role/",
+                            "aws_role_description": "",
+                            "aws_role_name": "ComputerVision-role-qblkd6x3",
+                            "aws_tags": {}
+                        }
+                    }
+                ]
+            },
+            "resourceType": {
+                "id": "role",
+                "displayName": "IAM Role",
+                "traits": [
+                    "TRAIT_ROLE"
+                ],
+                "annotations": [
+                    {
+                        "@type": "type.googleapis.com/c1.connector.v2.V1Identifier",
+                        "id": "role"
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "id": {
+                    "resourceType": "role",
+                    "resource": "arn:aws:iam::110025230963:role/service-role/CV_API-role-rluvstqu"
+                },
+                "displayName": "CV_API-role-rluvstqu",
+                "annotations": [
+                    {
+                        "@type": "type.googleapis.com/c1.connector.v2.V1Identifier",
+                        "id": "AROARTHQDZJZ7IBR4F2PN"
+                    },
+                    {
+                        "@type": "type.googleapis.com/c1.connector.v2.RoleTrait",
+                        "profile": {
+                            "aws_arn": "arn:aws:iam::110025230963:role/service-role/CV_API-role-rluvstqu",
+                            "aws_path": "/service-role/",
+                            "aws_role_description": "",
+                            "aws_role_name": "CV_API-role-rluvstqu",
+                            "aws_tags": {}
+                        }
+                    }
+                ]
+            },
+            "resourceType": {
+                "id": "role",
+                "displayName": "IAM Role",
+                "traits": [
+                    "TRAIT_ROLE"
+                ],
+                "annotations": [
+                    {
+                        "@type": "type.googleapis.com/c1.connector.v2.V1Identifier",
+                        "id": "role"
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "id": {
+                    "resourceType": "role",
+                    "resource": "arn:aws:iam::110025230963:role/DermoseUser"
+                },
+                "displayName": "DermoseUser",
+                "annotations": [
+                    {
+                        "@type": "type.googleapis.com/c1.connector.v2.V1Identifier",
+                        "id": "AROARTHQDZJZYFDIIXO2O"
+                    },
+                    {
+                        "@type": "type.googleapis.com/c1.connector.v2.RoleTrait",
+                        "profile": {
+                            "aws_arn": "arn:aws:iam::110025230963:role/DermoseUser",
+                            "aws_path": "/",
+                            "aws_role_description": "",
+                            "aws_role_name": "DermoseUser",
+                            "aws_tags": {}
+                        }
+                    }
+                ]
+            },
+            "resourceType": {
+                "id": "role",
+                "displayName": "IAM Role",
+                "traits": [
+                    "TRAIT_ROLE"
+                ],
+                "annotations": [
+                    {
+                        "@type": "type.googleapis.com/c1.connector.v2.V1Identifier",
+                        "id": "role"
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "id": {
+                    "resourceType": "role",
+                    "resource": "arn:aws:iam::110025230963:role/ecsInstanceRole"
+                },
+                "displayName": "ecsInstanceRole",
+                "annotations": [
+                    {
+                        "@type": "type.googleapis.com/c1.connector.v2.V1Identifier",
+                        "id": "AROARTHQDZJZRY6D3T54M"
+                    },
+                    {
+                        "@type": "type.googleapis.com/c1.connector.v2.RoleTrait",
+                        "profile": {
+                            "aws_arn": "arn:aws:iam::110025230963:role/ecsInstanceRole",
+                            "aws_path": "/",
+                            "aws_role_description": "",
+                            "aws_role_name": "ecsInstanceRole",
+                            "aws_tags": {}
+                        }
+                    }
+                ]
+            },
+            "resourceType": {
+                "id": "role",
+                "displayName": "IAM Role",
+                "traits": [
+                    "TRAIT_ROLE"
+                ],
+                "annotations": [
+                    {
+                        "@type": "type.googleapis.com/c1.connector.v2.V1Identifier",
+                        "id": "role"
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "id": {
+                    "resourceType": "role",
+                    "resource": "arn:aws:iam::110025230963:role/ecsTaskExecutionRole"
+                },
+                "displayName": "ecsTaskExecutionRole",
+                "annotations": [
+                    {
+                        "@type": "type.googleapis.com/c1.connector.v2.V1Identifier",
+                        "id": "AROARTHQDZJZX4POQ3G63"
+                    },
+                    {
+                        "@type": "type.googleapis.com/c1.connector.v2.RoleTrait",
+                        "profile": {
+                            "aws_arn": "arn:aws:iam::110025230963:role/ecsTaskExecutionRole",
+                            "aws_path": "/",
+                            "aws_role_description": "",
+                            "aws_role_name": "ecsTaskExecutionRole",
+                            "aws_tags": {}
+                        }
+                    }
+                ]
+            },
+            "resourceType": {
+                "id": "role",
+                "displayName": "IAM Role",
+                "traits": [
+                    "TRAIT_ROLE"
+                ],
+                "annotations": [
+                    {
+                        "@type": "type.googleapis.com/c1.connector.v2.V1Identifier",
+                        "id": "role"
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "id": {
+                    "resourceType": "role",
+                    "resource": "arn:aws:iam::110025230963:role/PatientIAMRole42b601-ethfjyos35fhlas2s5la4432pe-staging"
+                },
+                "displayName": "PatientIAMRole42b601-ethfjyos35fhlas2s5la4432pe-staging",
+                "annotations": [
+                    {
+                        "@type": "type.googleapis.com/c1.connector.v2.V1Identifier",
+                        "id": "AROARTHQDZJZUJD3H3VZB"
+                    },
+                    {
+                        "@type": "type.googleapis.com/c1.connector.v2.RoleTrait",
+                        "profile": {
+                            "aws_arn": "arn:aws:iam::110025230963:role/PatientIAMRole42b601-ethfjyos35fhlas2s5la4432pe-staging",
+                            "aws_path": "/",
+                            "aws_role_description": "",
+                            "aws_role_name": "PatientIAMRole42b601-ethfjyos35fhlas2s5la4432pe-staging",
+                            "aws_tags": {}
+                        }
+                    }
+                ]
+            },
+            "resourceType": {
+                "id": "role",
+                "displayName": "IAM Role",
+                "traits": [
+                    "TRAIT_ROLE"
+                ],
+                "annotations": [
+                    {
+                        "@type": "type.googleapis.com/c1.connector.v2.V1Identifier",
+                        "id": "role"
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "id": {
+                    "resourceType": "role",
+                    "resource": "arn:aws:iam::110025230963:role/PatientIAMRole42b601-knerne3d5bfz3bdsobltyjwl4y-production"
+                },
+                "displayName": "PatientIAMRole42b601-knerne3d5bfz3bdsobltyjwl4y-production",
+                "annotations": [
+                    {
+                        "@type": "type.googleapis.com/c1.connector.v2.V1Identifier",
+                        "id": "AROARTHQDZJZZISGAK4XC"
+                    },
+                    {
+                        "@type": "type.googleapis.com/c1.connector.v2.RoleTrait",
+                        "profile": {
+                            "aws_arn": "arn:aws:iam::110025230963:role/PatientIAMRole42b601-knerne3d5bfz3bdsobltyjwl4y-production",
+                            "aws_path": "/",
+                            "aws_role_description": "",
+                            "aws_role_name": "PatientIAMRole42b601-knerne3d5bfz3bdsobltyjwl4y-production",
+                            "aws_tags": {}
+                        }
+                    }
+                ]
+            },
+            "resourceType": {
+                "id": "role",
+                "displayName": "IAM Role",
+                "traits": [
+                    "TRAIT_ROLE"
+                ],
+                "annotations": [
+                    {
+                        "@type": "type.googleapis.com/c1.connector.v2.V1Identifier",
+                        "id": "role"
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "id": {
+                    "resourceType": "role",
+                    "resource": "arn:aws:iam::110025230963:role/service-role/pre-annotation-role-ptifz9sq"
+                },
+                "displayName": "pre-annotation-role-ptifz9sq",
+                "annotations": [
+                    {
+                        "@type": "type.googleapis.com/c1.connector.v2.V1Identifier",
+                        "id": "AROARTHQDZJZUBT65CKOB"
+                    },
+                    {
+                        "@type": "type.googleapis.com/c1.connector.v2.RoleTrait",
+                        "profile": {
+                            "aws_arn": "arn:aws:iam::110025230963:role/service-role/pre-annotation-role-ptifz9sq",
+                            "aws_path": "/service-role/",
+                            "aws_role_description": "",
+                            "aws_role_name": "pre-annotation-role-ptifz9sq",
+                            "aws_tags": {}
+                        }
+                    }
+                ]
+            },
+            "resourceType": {
+                "id": "role",
+                "displayName": "IAM Role",
+                "traits": [
+                    "TRAIT_ROLE"
+                ],
+                "annotations": [
+                    {
+                        "@type": "type.googleapis.com/c1.connector.v2.V1Identifier",
+                        "id": "role"
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "id": {
+                    "resourceType": "role",
+                    "resource": "arn:aws:iam::110025230963:role/service-role/start-stop-inference-instance-role-8hvaexux"
+                },
+                "displayName": "start-stop-inference-instance-role-8hvaexux",
+                "annotations": [
+                    {
+                        "@type": "type.googleapis.com/c1.connector.v2.V1Identifier",
+                        "id": "AROARTHQDZJZWCNCLZMIT"
+                    },
+                    {
+                        "@type": "type.googleapis.com/c1.connector.v2.RoleTrait",
+                        "profile": {
+                            "aws_arn": "arn:aws:iam::110025230963:role/service-role/start-stop-inference-instance-role-8hvaexux",
+                            "aws_path": "/service-role/",
+                            "aws_role_description": "",
+                            "aws_role_name": "start-stop-inference-instance-role-8hvaexux",
+                            "aws_tags": {}
+                        }
+                    }
+                ]
+            },
+            "resourceType": {
+                "id": "role",
+                "displayName": "IAM Role",
+                "traits": [
+                    "TRAIT_ROLE"
+                ],
+                "annotations": [
+                    {
+                        "@type": "type.googleapis.com/c1.connector.v2.V1Identifier",
+                        "id": "role"
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "id": {
+                    "resourceType": "role",
+                    "resource": "arn:aws:iam::110025230963:role/upClientLambdaRole04589602133621-dev"
+                },
+                "displayName": "upClientLambdaRole04589602133621-dev",
+                "annotations": [
+                    {
+                        "@type": "type.googleapis.com/c1.connector.v2.V1Identifier",
+                        "id": "AROARTHQDZJZXLMIMAEGC"
+                    },
+                    {
+                        "@type": "type.googleapis.com/c1.connector.v2.RoleTrait",
+                        "profile": {
+                            "aws_arn": "arn:aws:iam::110025230963:role/upClientLambdaRole04589602133621-dev",
+                            "aws_path": "/",
+                            "aws_role_description": "",
+                            "aws_role_name": "upClientLambdaRole04589602133621-dev",
+                            "aws_tags": {}
+                        }
+                    }
+                ]
+            },
+            "resourceType": {
+                "id": "role",
+                "displayName": "IAM Role",
+                "traits": [
+                    "TRAIT_ROLE"
+                ],
+                "annotations": [
+                    {
+                        "@type": "type.googleapis.com/c1.connector.v2.V1Identifier",
+                        "id": "role"
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "id": {
+                    "resourceType": "role",
+                    "resource": "arn:aws:iam::110025230963:role/upClientLambdaRole0a434249134504-dev"
+                },
+                "displayName": "upClientLambdaRole0a434249134504-dev",
+                "annotations": [
+                    {
+                        "@type": "type.googleapis.com/c1.connector.v2.V1Identifier",
+                        "id": "AROARTHQDZJZS6NU4DFWZ"
+                    },
+                    {
+                        "@type": "type.googleapis.com/c1.connector.v2.RoleTrait",
+                        "profile": {
+                            "aws_arn": "arn:aws:iam::110025230963:role/upClientLambdaRole0a434249134504-dev",
+                            "aws_path": "/",
+                            "aws_role_description": "",
+                            "aws_role_name": "upClientLambdaRole0a434249134504-dev",
+                            "aws_tags": {}
+                        }
+                    }
+                ]
+            },
+            "resourceType": {
+                "id": "role",
+                "displayName": "IAM Role",
+                "traits": [
+                    "TRAIT_ROLE"
+                ],
+                "annotations": [
+                    {
+                        "@type": "type.googleapis.com/c1.connector.v2.V1Identifier",
+                        "id": "role"
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "id": {
+                    "resourceType": "role",
+                    "resource": "arn:aws:iam::110025230963:role/upClientLambdaRoleee04eaf704013-staging"
+                },
+                "displayName": "upClientLambdaRoleee04eaf704013-staging",
+                "annotations": [
+                    {
+                        "@type": "type.googleapis.com/c1.connector.v2.V1Identifier",
+                        "id": "AROARTHQDZJZZSFTEZP47"
+                    },
+                    {
+                        "@type": "type.googleapis.com/c1.connector.v2.RoleTrait",
+                        "profile": {
+                            "aws_arn": "arn:aws:iam::110025230963:role/upClientLambdaRoleee04eaf704013-staging",
+                            "aws_path": "/",
+                            "aws_role_description": "",
+                            "aws_role_name": "upClientLambdaRoleee04eaf704013-staging",
+                            "aws_tags": {}
+                        }
+                    }
+                ]
+            },
+            "resourceType": {
+                "id": "role",
+                "displayName": "IAM Role",
+                "traits": [
+                    "TRAIT_ROLE"
+                ],
+                "annotations": [
+                    {
+                        "@type": "type.googleapis.com/c1.connector.v2.V1Identifier",
+                        "id": "role"
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "id": {
+                    "resourceType": "role",
+                    "resource": "arn:aws:iam::110025230963:role/upClientLambdaRoleee04eaf7210821-production"
+                },
+                "displayName": "upClientLambdaRoleee04eaf7210821-production",
+                "annotations": [
+                    {
+                        "@type": "type.googleapis.com/c1.connector.v2.V1Identifier",
+                        "id": "AROARTHQDZJZRJ6YTGTM3"
+                    },
+                    {
+                        "@type": "type.googleapis.com/c1.connector.v2.RoleTrait",
+                        "profile": {
+                            "aws_arn": "arn:aws:iam::110025230963:role/upClientLambdaRoleee04eaf7210821-production",
+                            "aws_path": "/",
+                            "aws_role_description": "",
+                            "aws_role_name": "upClientLambdaRoleee04eaf7210821-production",
+                            "aws_tags": {}
+                        }
+                    }
+                ]
+            },
+            "resourceType": {
+                "id": "role",
+                "displayName": "IAM Role",
+                "traits": [
+                    "TRAIT_ROLE"
+                ],
+                "annotations": [
+                    {
+                        "@type": "type.googleapis.com/c1.connector.v2.V1Identifier",
+                        "id": "role"
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "id": {
+                    "resourceType": "role",
+                    "resource": "arn:aws:iam::110025230963:role/service-role/upload-to-s3-endpoint-role-s9zcz9o1"
+                },
+                "displayName": "upload-to-s3-endpoint-role-s9zcz9o1",
+                "annotations": [
+                    {
+                        "@type": "type.googleapis.com/c1.connector.v2.V1Identifier",
+                        "id": "AROARTHQDZJZSMAZAWYY6"
+                    },
+                    {
+                        "@type": "type.googleapis.com/c1.connector.v2.RoleTrait",
+                        "profile": {
+                            "aws_arn": "arn:aws:iam::110025230963:role/service-role/upload-to-s3-endpoint-role-s9zcz9o1",
+                            "aws_path": "/service-role/",
+                            "aws_role_description": "",
+                            "aws_role_name": "upload-to-s3-endpoint-role-s9zcz9o1",
+                            "aws_tags": {}
+                        }
+                    }
+                ]
+            },
+            "resourceType": {
+                "id": "role",
+                "displayName": "IAM Role",
+                "traits": [
+                    "TRAIT_ROLE"
+                ],
+                "annotations": [
+                    {
+                        "@type": "type.googleapis.com/c1.connector.v2.V1Identifier",
+                        "id": "role"
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "id": {
+                    "resourceType": "role",
+                    "resource": "arn:aws:iam::110025230963:role/us-west-2_2rbglxWi9-authRole"
+                },
+                "displayName": "us-west-2_2rbglxWi9-authRole",
+                "annotations": [
+                    {
+                        "@type": "type.googleapis.com/c1.connector.v2.V1Identifier",
+                        "id": "AROARTHQDZJZ7ZSFF3YCX"
+                    },
+                    {
+                        "@type": "type.googleapis.com/c1.connector.v2.RoleTrait",
+                        "profile": {
+                            "aws_arn": "arn:aws:iam::110025230963:role/us-west-2_2rbglxWi9-authRole",
+                            "aws_path": "/",
+                            "aws_role_description": "",
+                            "aws_role_name": "us-west-2_2rbglxWi9-authRole",
+                            "aws_tags": {}
+                        }
+                    }
+                ]
+            },
+            "resourceType": {
+                "id": "role",
+                "displayName": "IAM Role",
+                "traits": [
+                    "TRAIT_ROLE"
+                ],
+                "annotations": [
+                    {
+                        "@type": "type.googleapis.com/c1.connector.v2.V1Identifier",
+                        "id": "role"
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "id": {
+                    "resourceType": "role",
+                    "resource": "arn:aws:iam::110025230963:role/us-west-2_2rbglxWi9_Full-access"
+                },
+                "displayName": "us-west-2_2rbglxWi9_Full-access",
+                "annotations": [
+                    {
+                        "@type": "type.googleapis.com/c1.connector.v2.V1Identifier",
+                        "id": "AROARTHQDZJZ2XBK7GJIJ"
+                    },
+                    {
+                        "@type": "type.googleapis.com/c1.connector.v2.RoleTrait",
+                        "profile": {
+                            "aws_arn": "arn:aws:iam::110025230963:role/us-west-2_2rbglxWi9_Full-access",
+                            "aws_path": "/",
+                            "aws_role_description": "",
+                            "aws_role_name": "us-west-2_2rbglxWi9_Full-access",
+                            "aws_tags": {}
+                        }
+                    }
+                ]
+            },
+            "resourceType": {
+                "id": "role",
+                "displayName": "IAM Role",
+                "traits": [
+                    "TRAIT_ROLE"
+                ],
+                "annotations": [
+                    {
+                        "@type": "type.googleapis.com/c1.connector.v2.V1Identifier",
+                        "id": "role"
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "id": {
+                    "resourceType": "role",
+                    "resource": "arn:aws:iam::110025230963:role/us-west-2_2rbglxWi9_Manage-only"
+                },
+                "displayName": "us-west-2_2rbglxWi9_Manage-only",
+                "annotations": [
+                    {
+                        "@type": "type.googleapis.com/c1.connector.v2.V1Identifier",
+                        "id": "AROARTHQDZJZVXHUVF3CT"
+                    },
+                    {
+                        "@type": "type.googleapis.com/c1.connector.v2.RoleTrait",
+                        "profile": {
+                            "aws_arn": "arn:aws:iam::110025230963:role/us-west-2_2rbglxWi9_Manage-only",
+                            "aws_path": "/",
+                            "aws_role_description": "",
+                            "aws_role_name": "us-west-2_2rbglxWi9_Manage-only",
+                            "aws_tags": {}
+                        }
+                    }
+                ]
+            },
+            "resourceType": {
+                "id": "role",
+                "displayName": "IAM Role",
+                "traits": [
+                    "TRAIT_ROLE"
+                ],
+                "annotations": [
+                    {
+                        "@type": "type.googleapis.com/c1.connector.v2.V1Identifier",
+                        "id": "role"
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "id": {
+                    "resourceType": "role",
+                    "resource": "arn:aws:iam::110025230963:role/us-west-2_5iYHjyan5-authRole"
+                },
+                "displayName": "us-west-2_5iYHjyan5-authRole",
+                "annotations": [
+                    {
+                        "@type": "type.googleapis.com/c1.connector.v2.V1Identifier",
+                        "id": "AROARTHQDZJZ4LDU3FCSK"
+                    },
+                    {
+                        "@type": "type.googleapis.com/c1.connector.v2.RoleTrait",
+                        "profile": {
+                            "aws_arn": "arn:aws:iam::110025230963:role/us-west-2_5iYHjyan5-authRole",
+                            "aws_path": "/",
+                            "aws_role_description": "",
+                            "aws_role_name": "us-west-2_5iYHjyan5-authRole",
+                            "aws_tags": {}
+                        }
+                    }
+                ]
+            },
+            "resourceType": {
+                "id": "role",
+                "displayName": "IAM Role",
+                "traits": [
+                    "TRAIT_ROLE"
+                ],
+                "annotations": [
+                    {
+                        "@type": "type.googleapis.com/c1.connector.v2.V1Identifier",
+                        "id": "role"
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "id": {
+                    "resourceType": "role",
+                    "resource": "arn:aws:iam::110025230963:role/us-west-2_5iYHjyan5_Full-access"
+                },
+                "displayName": "us-west-2_5iYHjyan5_Full-access",
+                "annotations": [
+                    {
+                        "@type": "type.googleapis.com/c1.connector.v2.V1Identifier",
+                        "id": "AROARTHQDZJZ2JHLPEAP6"
+                    },
+                    {
+                        "@type": "type.googleapis.com/c1.connector.v2.RoleTrait",
+                        "profile": {
+                            "aws_arn": "arn:aws:iam::110025230963:role/us-west-2_5iYHjyan5_Full-access",
+                            "aws_path": "/",
+                            "aws_role_description": "",
+                            "aws_role_name": "us-west-2_5iYHjyan5_Full-access",
+                            "aws_tags": {}
+                        }
+                    }
+                ]
+            },
+            "resourceType": {
+                "id": "role",
+                "displayName": "IAM Role",
+                "traits": [
+                    "TRAIT_ROLE"
+                ],
+                "annotations": [
+                    {
+                        "@type": "type.googleapis.com/c1.connector.v2.V1Identifier",
+                        "id": "role"
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "id": {
+                    "resourceType": "role",
+                    "resource": "arn:aws:iam::110025230963:role/us-west-2_5iYHjyan5_Manage-only"
+                },
+                "displayName": "us-west-2_5iYHjyan5_Manage-only",
+                "annotations": [
+                    {
+                        "@type": "type.googleapis.com/c1.connector.v2.V1Identifier",
+                        "id": "AROARTHQDZJZ3EVFB5BB5"
+                    },
+                    {
+                        "@type": "type.googleapis.com/c1.connector.v2.RoleTrait",
+                        "profile": {
+                            "aws_arn": "arn:aws:iam::110025230963:role/us-west-2_5iYHjyan5_Manage-only",
+                            "aws_path": "/",
+                            "aws_role_description": "",
+                            "aws_role_name": "us-west-2_5iYHjyan5_Manage-only",
+                            "aws_tags": {}
+                        }
+                    }
+                ]
+            },
+            "resourceType": {
+                "id": "role",
+                "displayName": "IAM Role",
+                "traits": [
+                    "TRAIT_ROLE"
+                ],
+                "annotations": [
+                    {
+                        "@type": "type.googleapis.com/c1.connector.v2.V1Identifier",
+                        "id": "role"
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "id": {
+                    "resourceType": "role",
+                    "resource": "arn:aws:iam::110025230963:role/us-west-2_7vFs0tH9H-authRole"
+                },
+                "displayName": "us-west-2_7vFs0tH9H-authRole",
+                "annotations": [
+                    {
+                        "@type": "type.googleapis.com/c1.connector.v2.V1Identifier",
+                        "id": "AROARTHQDZJZ6YNIVE534"
+                    },
+                    {
+                        "@type": "type.googleapis.com/c1.connector.v2.RoleTrait",
+                        "profile": {
+                            "aws_arn": "arn:aws:iam::110025230963:role/us-west-2_7vFs0tH9H-authRole",
+                            "aws_path": "/",
+                            "aws_role_description": "",
+                            "aws_role_name": "us-west-2_7vFs0tH9H-authRole",
+                            "aws_tags": {}
+                        }
+                    }
+                ]
+            },
+            "resourceType": {
+                "id": "role",
+                "displayName": "IAM Role",
+                "traits": [
+                    "TRAIT_ROLE"
+                ],
+                "annotations": [
+                    {
+                        "@type": "type.googleapis.com/c1.connector.v2.V1Identifier",
+                        "id": "role"
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "id": {
+                    "resourceType": "role",
+                    "resource": "arn:aws:iam::110025230963:role/us-west-2_7vFs0tH9H_Full-access"
+                },
+                "displayName": "us-west-2_7vFs0tH9H_Full-access",
+                "annotations": [
+                    {
+                        "@type": "type.googleapis.com/c1.connector.v2.V1Identifier",
+                        "id": "AROARTHQDZJZWCWCC7IKJ"
+                    },
+                    {
+                        "@type": "type.googleapis.com/c1.connector.v2.RoleTrait",
+                        "profile": {
+                            "aws_arn": "arn:aws:iam::110025230963:role/us-west-2_7vFs0tH9H_Full-access",
+                            "aws_path": "/",
+                            "aws_role_description": "",
+                            "aws_role_name": "us-west-2_7vFs0tH9H_Full-access",
+                            "aws_tags": {}
+                        }
+                    }
+                ]
+            },
+            "resourceType": {
+                "id": "role",
+                "displayName": "IAM Role",
+                "traits": [
+                    "TRAIT_ROLE"
+                ],
+                "annotations": [
+                    {
+                        "@type": "type.googleapis.com/c1.connector.v2.V1Identifier",
+                        "id": "role"
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "id": {
+                    "resourceType": "role",
+                    "resource": "arn:aws:iam::110025230963:role/us-west-2_7vFs0tH9H_Manage-only"
+                },
+                "displayName": "us-west-2_7vFs0tH9H_Manage-only",
+                "annotations": [
+                    {
+                        "@type": "type.googleapis.com/c1.connector.v2.V1Identifier",
+                        "id": "AROARTHQDZJZ4OR7NAXMU"
+                    },
+                    {
+                        "@type": "type.googleapis.com/c1.connector.v2.RoleTrait",
+                        "profile": {
+                            "aws_arn": "arn:aws:iam::110025230963:role/us-west-2_7vFs0tH9H_Manage-only",
+                            "aws_path": "/",
+                            "aws_role_description": "",
+                            "aws_role_name": "us-west-2_7vFs0tH9H_Manage-only",
+                            "aws_tags": {}
+                        }
+                    }
+                ]
+            },
+            "resourceType": {
+                "id": "role",
+                "displayName": "IAM Role",
+                "traits": [
+                    "TRAIT_ROLE"
+                ],
+                "annotations": [
+                    {
+                        "@type": "type.googleapis.com/c1.connector.v2.V1Identifier",
+                        "id": "role"
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "id": {
+                    "resourceType": "role",
+                    "resource": "arn:aws:iam::110025230963:role/us-west-2_aW0FnHjdW-authRole"
+                },
+                "displayName": "us-west-2_aW0FnHjdW-authRole",
+                "annotations": [
+                    {
+                        "@type": "type.googleapis.com/c1.connector.v2.V1Identifier",
+                        "id": "AROARTHQDZJZ3ZKHJH7OQ"
+                    },
+                    {
+                        "@type": "type.googleapis.com/c1.connector.v2.RoleTrait",
+                        "profile": {
+                            "aws_arn": "arn:aws:iam::110025230963:role/us-west-2_aW0FnHjdW-authRole",
+                            "aws_path": "/",
+                            "aws_role_description": "",
+                            "aws_role_name": "us-west-2_aW0FnHjdW-authRole",
+                            "aws_tags": {}
+                        }
+                    }
+                ]
+            },
+            "resourceType": {
+                "id": "role",
+                "displayName": "IAM Role",
+                "traits": [
+                    "TRAIT_ROLE"
+                ],
+                "annotations": [
+                    {
+                        "@type": "type.googleapis.com/c1.connector.v2.V1Identifier",
+                        "id": "role"
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "id": {
+                    "resourceType": "role",
+                    "resource": "arn:aws:iam::110025230963:role/us-west-2_aW0FnHjdW_Full-access"
+                },
+                "displayName": "us-west-2_aW0FnHjdW_Full-access",
+                "annotations": [
+                    {
+                        "@type": "type.googleapis.com/c1.connector.v2.V1Identifier",
+                        "id": "AROARTHQDZJZTS5VSCRU6"
+                    },
+                    {
+                        "@type": "type.googleapis.com/c1.connector.v2.RoleTrait",
+                        "profile": {
+                            "aws_arn": "arn:aws:iam::110025230963:role/us-west-2_aW0FnHjdW_Full-access",
+                            "aws_path": "/",
+                            "aws_role_description": "",
+                            "aws_role_name": "us-west-2_aW0FnHjdW_Full-access",
+                            "aws_tags": {}
+                        }
+                    }
+                ]
+            },
+            "resourceType": {
+                "id": "role",
+                "displayName": "IAM Role",
+                "traits": [
+                    "TRAIT_ROLE"
+                ],
+                "annotations": [
+                    {
+                        "@type": "type.googleapis.com/c1.connector.v2.V1Identifier",
+                        "id": "role"
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "id": {
+                    "resourceType": "role",
+                    "resource": "arn:aws:iam::110025230963:role/us-west-2_aW0FnHjdW_Manage-only"
+                },
+                "displayName": "us-west-2_aW0FnHjdW_Manage-only",
+                "annotations": [
+                    {
+                        "@type": "type.googleapis.com/c1.connector.v2.V1Identifier",
+                        "id": "AROARTHQDZJZSEENOGQLO"
+                    },
+                    {
+                        "@type": "type.googleapis.com/c1.connector.v2.RoleTrait",
+                        "profile": {
+                            "aws_arn": "arn:aws:iam::110025230963:role/us-west-2_aW0FnHjdW_Manage-only",
+                            "aws_path": "/",
+                            "aws_role_description": "",
+                            "aws_role_name": "us-west-2_aW0FnHjdW_Manage-only",
+                            "aws_tags": {}
+                        }
+                    }
+                ]
+            },
+            "resourceType": {
+                "id": "role",
+                "displayName": "IAM Role",
+                "traits": [
+                    "TRAIT_ROLE"
+                ],
+                "annotations": [
+                    {
+                        "@type": "type.googleapis.com/c1.connector.v2.V1Identifier",
+                        "id": "role"
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "id": {
+                    "resourceType": "role",
+                    "resource": "arn:aws:iam::110025230963:role/us-west-2_Bpx0MaPQu-authRole"
+                },
+                "displayName": "us-west-2_Bpx0MaPQu-authRole",
+                "annotations": [
+                    {
+                        "@type": "type.googleapis.com/c1.connector.v2.V1Identifier",
+                        "id": "AROARTHQDZJZY3JFGCX4S"
+                    },
+                    {
+                        "@type": "type.googleapis.com/c1.connector.v2.RoleTrait",
+                        "profile": {
+                            "aws_arn": "arn:aws:iam::110025230963:role/us-west-2_Bpx0MaPQu-authRole",
+                            "aws_path": "/",
+                            "aws_role_description": "",
+                            "aws_role_name": "us-west-2_Bpx0MaPQu-authRole",
+                            "aws_tags": {}
+                        }
+                    }
+                ]
+            },
+            "resourceType": {
+                "id": "role",
+                "displayName": "IAM Role",
+                "traits": [
+                    "TRAIT_ROLE"
+                ],
+                "annotations": [
+                    {
+                        "@type": "type.googleapis.com/c1.connector.v2.V1Identifier",
+                        "id": "role"
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "id": {
+                    "resourceType": "role",
+                    "resource": "arn:aws:iam::110025230963:role/us-west-2_Bpx0MaPQu_Full-access"
+                },
+                "displayName": "us-west-2_Bpx0MaPQu_Full-access",
+                "annotations": [
+                    {
+                        "@type": "type.googleapis.com/c1.connector.v2.V1Identifier",
+                        "id": "AROARTHQDZJZR4VM773D2"
+                    },
+                    {
+                        "@type": "type.googleapis.com/c1.connector.v2.RoleTrait",
+                        "profile": {
+                            "aws_arn": "arn:aws:iam::110025230963:role/us-west-2_Bpx0MaPQu_Full-access",
+                            "aws_path": "/",
+                            "aws_role_description": "",
+                            "aws_role_name": "us-west-2_Bpx0MaPQu_Full-access",
+                            "aws_tags": {}
+                        }
+                    }
+                ]
+            },
+            "resourceType": {
+                "id": "role",
+                "displayName": "IAM Role",
+                "traits": [
+                    "TRAIT_ROLE"
+                ],
+                "annotations": [
+                    {
+                        "@type": "type.googleapis.com/c1.connector.v2.V1Identifier",
+                        "id": "role"
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "id": {
+                    "resourceType": "role",
+                    "resource": "arn:aws:iam::110025230963:role/us-west-2_Bpx0MaPQu_Manage-only"
+                },
+                "displayName": "us-west-2_Bpx0MaPQu_Manage-only",
+                "annotations": [
+                    {
+                        "@type": "type.googleapis.com/c1.connector.v2.V1Identifier",
+                        "id": "AROARTHQDZJZQ3NFLT2Q4"
+                    },
+                    {
+                        "@type": "type.googleapis.com/c1.connector.v2.RoleTrait",
+                        "profile": {
+                            "aws_arn": "arn:aws:iam::110025230963:role/us-west-2_Bpx0MaPQu_Manage-only",
+                            "aws_path": "/",
+                            "aws_role_description": "",
+                            "aws_role_name": "us-west-2_Bpx0MaPQu_Manage-only",
+                            "aws_tags": {}
+                        }
+                    }
+                ]
+            },
+            "resourceType": {
+                "id": "role",
+                "displayName": "IAM Role",
+                "traits": [
+                    "TRAIT_ROLE"
+                ],
+                "annotations": [
+                    {
+                        "@type": "type.googleapis.com/c1.connector.v2.V1Identifier",
+                        "id": "role"
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "id": {
+                    "resourceType": "role",
+                    "resource": "arn:aws:iam::110025230963:role/us-west-2_gBZ7xqxuG-authRole"
+                },
+                "displayName": "us-west-2_gBZ7xqxuG-authRole",
+                "annotations": [
+                    {
+                        "@type": "type.googleapis.com/c1.connector.v2.V1Identifier",
+                        "id": "AROARTHQDZJZTA3X3CBM6"
+                    },
+                    {
+                        "@type": "type.googleapis.com/c1.connector.v2.RoleTrait",
+                        "profile": {
+                            "aws_arn": "arn:aws:iam::110025230963:role/us-west-2_gBZ7xqxuG-authRole",
+                            "aws_path": "/",
+                            "aws_role_description": "",
+                            "aws_role_name": "us-west-2_gBZ7xqxuG-authRole",
+                            "aws_tags": {}
+                        }
+                    }
+                ]
+            },
+            "resourceType": {
+                "id": "role",
+                "displayName": "IAM Role",
+                "traits": [
+                    "TRAIT_ROLE"
+                ],
+                "annotations": [
+                    {
+                        "@type": "type.googleapis.com/c1.connector.v2.V1Identifier",
+                        "id": "role"
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "id": {
+                    "resourceType": "role",
+                    "resource": "arn:aws:iam::110025230963:role/us-west-2_gBZ7xqxuG_Full-access"
+                },
+                "displayName": "us-west-2_gBZ7xqxuG_Full-access",
+                "annotations": [
+                    {
+                        "@type": "type.googleapis.com/c1.connector.v2.V1Identifier",
+                        "id": "AROARTHQDZJZX3IJK6WGX"
+                    },
+                    {
+                        "@type": "type.googleapis.com/c1.connector.v2.RoleTrait",
+                        "profile": {
+                            "aws_arn": "arn:aws:iam::110025230963:role/us-west-2_gBZ7xqxuG_Full-access",
+                            "aws_path": "/",
+                            "aws_role_description": "",
+                            "aws_role_name": "us-west-2_gBZ7xqxuG_Full-access",
+                            "aws_tags": {}
+                        }
+                    }
+                ]
+            },
+            "resourceType": {
+                "id": "role",
+                "displayName": "IAM Role",
+                "traits": [
+                    "TRAIT_ROLE"
+                ],
+                "annotations": [
+                    {
+                        "@type": "type.googleapis.com/c1.connector.v2.V1Identifier",
+                        "id": "role"
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "id": {
+                    "resourceType": "role",
+                    "resource": "arn:aws:iam::110025230963:role/us-west-2_gBZ7xqxuG_Manage-only"
+                },
+                "displayName": "us-west-2_gBZ7xqxuG_Manage-only",
+                "annotations": [
+                    {
+                        "@type": "type.googleapis.com/c1.connector.v2.V1Identifier",
+                        "id": "AROARTHQDZJZV22MV2ZJH"
+                    },
+                    {
+                        "@type": "type.googleapis.com/c1.connector.v2.RoleTrait",
+                        "profile": {
+                            "aws_arn": "arn:aws:iam::110025230963:role/us-west-2_gBZ7xqxuG_Manage-only",
+                            "aws_path": "/",
+                            "aws_role_description": "",
+                            "aws_role_name": "us-west-2_gBZ7xqxuG_Manage-only",
+                            "aws_tags": {}
+                        }
+                    }
+                ]
+            },
+            "resourceType": {
+                "id": "role",
+                "displayName": "IAM Role",
+                "traits": [
+                    "TRAIT_ROLE"
+                ],
+                "annotations": [
+                    {
+                        "@type": "type.googleapis.com/c1.connector.v2.V1Identifier",
+                        "id": "role"
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "id": {
+                    "resourceType": "role",
+                    "resource": "arn:aws:iam::110025230963:role/us-west-2_mgFF2EPlb-authRole"
+                },
+                "displayName": "us-west-2_mgFF2EPlb-authRole",
+                "annotations": [
+                    {
+                        "@type": "type.googleapis.com/c1.connector.v2.V1Identifier",
+                        "id": "AROARTHQDZJZ7BEGMDAHS"
+                    },
+                    {
+                        "@type": "type.googleapis.com/c1.connector.v2.RoleTrait",
+                        "profile": {
+                            "aws_arn": "arn:aws:iam::110025230963:role/us-west-2_mgFF2EPlb-authRole",
+                            "aws_path": "/",
+                            "aws_role_description": "",
+                            "aws_role_name": "us-west-2_mgFF2EPlb-authRole",
+                            "aws_tags": {}
+                        }
+                    }
+                ]
+            },
+            "resourceType": {
+                "id": "role",
+                "displayName": "IAM Role",
+                "traits": [
+                    "TRAIT_ROLE"
+                ],
+                "annotations": [
+                    {
+                        "@type": "type.googleapis.com/c1.connector.v2.V1Identifier",
+                        "id": "role"
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "id": {
+                    "resourceType": "role",
+                    "resource": "arn:aws:iam::110025230963:role/us-west-2_mgFF2EPlb_Full-access"
+                },
+                "displayName": "us-west-2_mgFF2EPlb_Full-access",
+                "annotations": [
+                    {
+                        "@type": "type.googleapis.com/c1.connector.v2.V1Identifier",
+                        "id": "AROARTHQDZJZXR5FEXDZC"
+                    },
+                    {
+                        "@type": "type.googleapis.com/c1.connector.v2.RoleTrait",
+                        "profile": {
+                            "aws_arn": "arn:aws:iam::110025230963:role/us-west-2_mgFF2EPlb_Full-access",
+                            "aws_path": "/",
+                            "aws_role_description": "",
+                            "aws_role_name": "us-west-2_mgFF2EPlb_Full-access",
+                            "aws_tags": {}
+                        }
+                    }
+                ]
+            },
+            "resourceType": {
+                "id": "role",
+                "displayName": "IAM Role",
+                "traits": [
+                    "TRAIT_ROLE"
+                ],
+                "annotations": [
+                    {
+                        "@type": "type.googleapis.com/c1.connector.v2.V1Identifier",
+                        "id": "role"
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "id": {
+                    "resourceType": "role",
+                    "resource": "arn:aws:iam::110025230963:role/us-west-2_mgFF2EPlb_Manage-only"
+                },
+                "displayName": "us-west-2_mgFF2EPlb_Manage-only",
+                "annotations": [
+                    {
+                        "@type": "type.googleapis.com/c1.connector.v2.V1Identifier",
+                        "id": "AROARTHQDZJZ2O3PHXG5T"
+                    },
+                    {
+                        "@type": "type.googleapis.com/c1.connector.v2.RoleTrait",
+                        "profile": {
+                            "aws_arn": "arn:aws:iam::110025230963:role/us-west-2_mgFF2EPlb_Manage-only",
+                            "aws_path": "/",
+                            "aws_role_description": "",
+                            "aws_role_name": "us-west-2_mgFF2EPlb_Manage-only",
+                            "aws_tags": {}
+                        }
+                    }
+                ]
+            },
+            "resourceType": {
+                "id": "role",
+                "displayName": "IAM Role",
+                "traits": [
+                    "TRAIT_ROLE"
+                ],
+                "annotations": [
+                    {
+                        "@type": "type.googleapis.com/c1.connector.v2.V1Identifier",
+                        "id": "role"
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "id": {
+                    "resourceType": "role",
+                    "resource": "arn:aws:iam::110025230963:role/us-west-2_S6czSk4EP-authRole"
+                },
+                "displayName": "us-west-2_S6czSk4EP-authRole",
+                "annotations": [
+                    {
+                        "@type": "type.googleapis.com/c1.connector.v2.V1Identifier",
+                        "id": "AROARTHQDZJZVSTTWKZAZ"
+                    },
+                    {
+                        "@type": "type.googleapis.com/c1.connector.v2.RoleTrait",
+                        "profile": {
+                            "aws_arn": "arn:aws:iam::110025230963:role/us-west-2_S6czSk4EP-authRole",
+                            "aws_path": "/",
+                            "aws_role_description": "",
+                            "aws_role_name": "us-west-2_S6czSk4EP-authRole",
+                            "aws_tags": {}
+                        }
+                    }
+                ]
+            },
+            "resourceType": {
+                "id": "role",
+                "displayName": "IAM Role",
+                "traits": [
+                    "TRAIT_ROLE"
+                ],
+                "annotations": [
+                    {
+                        "@type": "type.googleapis.com/c1.connector.v2.V1Identifier",
+                        "id": "role"
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "id": {
+                    "resourceType": "role",
+                    "resource": "arn:aws:iam::110025230963:role/us-west-2_S6czSk4EP_Full-access"
+                },
+                "displayName": "us-west-2_S6czSk4EP_Full-access",
+                "annotations": [
+                    {
+                        "@type": "type.googleapis.com/c1.connector.v2.V1Identifier",
+                        "id": "AROARTHQDZJZWCRPAWWUJ"
+                    },
+                    {
+                        "@type": "type.googleapis.com/c1.connector.v2.RoleTrait",
+                        "profile": {
+                            "aws_arn": "arn:aws:iam::110025230963:role/us-west-2_S6czSk4EP_Full-access",
+                            "aws_path": "/",
+                            "aws_role_description": "",
+                            "aws_role_name": "us-west-2_S6czSk4EP_Full-access",
+                            "aws_tags": {}
+                        }
+                    }
+                ]
+            },
+            "resourceType": {
+                "id": "role",
+                "displayName": "IAM Role",
+                "traits": [
+                    "TRAIT_ROLE"
+                ],
+                "annotations": [
+                    {
+                        "@type": "type.googleapis.com/c1.connector.v2.V1Identifier",
+                        "id": "role"
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "id": {
+                    "resourceType": "role",
+                    "resource": "arn:aws:iam::110025230963:role/us-west-2_S6czSk4EP_Manage-only"
+                },
+                "displayName": "us-west-2_S6czSk4EP_Manage-only",
+                "annotations": [
+                    {
+                        "@type": "type.googleapis.com/c1.connector.v2.V1Identifier",
+                        "id": "AROARTHQDZJZ5RAJTFTKZ"
+                    },
+                    {
+                        "@type": "type.googleapis.com/c1.connector.v2.RoleTrait",
+                        "profile": {
+                            "aws_arn": "arn:aws:iam::110025230963:role/us-west-2_S6czSk4EP_Manage-only",
+                            "aws_path": "/",
+                            "aws_role_description": "",
+                            "aws_role_name": "us-west-2_S6czSk4EP_Manage-only",
+                            "aws_tags": {}
+                        }
+                    }
+                ]
+            },
+            "resourceType": {
+                "id": "role",
+                "displayName": "IAM Role",
+                "traits": [
+                    "TRAIT_ROLE"
+                ],
+                "annotations": [
+                    {
+                        "@type": "type.googleapis.com/c1.connector.v2.V1Identifier",
+                        "id": "role"
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "id": {
+                    "resourceType": "role",
+                    "resource": "arn:aws:iam::110025230963:role/us-west-2_SIQ8P3Mys-authRole"
+                },
+                "displayName": "us-west-2_SIQ8P3Mys-authRole",
+                "annotations": [
+                    {
+                        "@type": "type.googleapis.com/c1.connector.v2.V1Identifier",
+                        "id": "AROARTHQDZJZXIJRE4YUK"
+                    },
+                    {
+                        "@type": "type.googleapis.com/c1.connector.v2.RoleTrait",
+                        "profile": {
+                            "aws_arn": "arn:aws:iam::110025230963:role/us-west-2_SIQ8P3Mys-authRole",
+                            "aws_path": "/",
+                            "aws_role_description": "",
+                            "aws_role_name": "us-west-2_SIQ8P3Mys-authRole",
+                            "aws_tags": {}
+                        }
+                    }
+                ]
+            },
+            "resourceType": {
+                "id": "role",
+                "displayName": "IAM Role",
+                "traits": [
+                    "TRAIT_ROLE"
+                ],
+                "annotations": [
+                    {
+                        "@type": "type.googleapis.com/c1.connector.v2.V1Identifier",
+                        "id": "role"
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "id": {
+                    "resourceType": "role",
+                    "resource": "arn:aws:iam::110025230963:role/us-west-2_SIQ8P3Mys_Full-access"
+                },
+                "displayName": "us-west-2_SIQ8P3Mys_Full-access",
+                "annotations": [
+                    {
+                        "@type": "type.googleapis.com/c1.connector.v2.V1Identifier",
+                        "id": "AROARTHQDZJZQNUABPLBD"
+                    },
+                    {
+                        "@type": "type.googleapis.com/c1.connector.v2.RoleTrait",
+                        "profile": {
+                            "aws_arn": "arn:aws:iam::110025230963:role/us-west-2_SIQ8P3Mys_Full-access",
+                            "aws_path": "/",
+                            "aws_role_description": "",
+                            "aws_role_name": "us-west-2_SIQ8P3Mys_Full-access",
+                            "aws_tags": {}
+                        }
+                    }
+                ]
+            },
+            "resourceType": {
+                "id": "role",
+                "displayName": "IAM Role",
+                "traits": [
+                    "TRAIT_ROLE"
+                ],
+                "annotations": [
+                    {
+                        "@type": "type.googleapis.com/c1.connector.v2.V1Identifier",
+                        "id": "role"
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "id": {
+                    "resourceType": "role",
+                    "resource": "arn:aws:iam::110025230963:role/us-west-2_SIQ8P3Mys_Manage-only"
+                },
+                "displayName": "us-west-2_SIQ8P3Mys_Manage-only",
+                "annotations": [
+                    {
+                        "@type": "type.googleapis.com/c1.connector.v2.V1Identifier",
+                        "id": "AROARTHQDZJZXU3BSKM7Q"
+                    },
+                    {
+                        "@type": "type.googleapis.com/c1.connector.v2.RoleTrait",
+                        "profile": {
+                            "aws_arn": "arn:aws:iam::110025230963:role/us-west-2_SIQ8P3Mys_Manage-only",
+                            "aws_path": "/",
+                            "aws_role_description": "",
+                            "aws_role_name": "us-west-2_SIQ8P3Mys_Manage-only",
+                            "aws_tags": {}
+                        }
+                    }
+                ]
+            },
+            "resourceType": {
+                "id": "role",
+                "displayName": "IAM Role",
+                "traits": [
+                    "TRAIT_ROLE"
+                ],
+                "annotations": [
+                    {
+                        "@type": "type.googleapis.com/c1.connector.v2.V1Identifier",
+                        "id": "role"
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "id": {
+                    "resourceType": "role",
+                    "resource": "arn:aws:iam::110025230963:role/service-role/Users-SMS-Role"
+                },
+                "displayName": "Users-SMS-Role",
+                "annotations": [
+                    {
+                        "@type": "type.googleapis.com/c1.connector.v2.V1Identifier",
+                        "id": "AROARTHQDZJZXRA4YQZEK"
+                    },
+                    {
+                        "@type": "type.googleapis.com/c1.connector.v2.RoleTrait",
+                        "profile": {
+                            "aws_arn": "arn:aws:iam::110025230963:role/service-role/Users-SMS-Role",
+                            "aws_path": "/service-role/",
+                            "aws_role_description": "",
+                            "aws_role_name": "Users-SMS-Role",
+                            "aws_tags": {}
+                        }
+                    }
+                ]
+            },
+            "resourceType": {
+                "id": "role",
+                "displayName": "IAM Role",
+                "traits": [
+                    "TRAIT_ROLE"
+                ],
+                "annotations": [
+                    {
+                        "@type": "type.googleapis.com/c1.connector.v2.V1Identifier",
+                        "id": "role"
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "id": {
+                    "resourceType": "role",
+                    "resource": "arn:aws:iam::110025230963:role/workspaces_DefaultRole"
+                },
+                "displayName": "workspaces_DefaultRole",
+                "annotations": [
+                    {
+                        "@type": "type.googleapis.com/c1.connector.v2.V1Identifier",
+                        "id": "AROARTHQDZJZ6SVFPKGWK"
+                    },
+                    {
+                        "@type": "type.googleapis.com/c1.connector.v2.RoleTrait",
+                        "profile": {
+                            "aws_arn": "arn:aws:iam::110025230963:role/workspaces_DefaultRole",
+                            "aws_path": "/",
+                            "aws_role_description": "",
+                            "aws_role_name": "workspaces_DefaultRole",
+                            "aws_tags": {}
+                        }
+                    }
+                ]
+            },
+            "resourceType": {
+                "id": "role",
+                "displayName": "IAM Role",
+                "traits": [
+                    "TRAIT_ROLE"
+                ],
+                "annotations": [
+                    {
+                        "@type": "type.googleapis.com/c1.connector.v2.V1Identifier",
+                        "id": "role"
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "id": {
+                    "resourceType": "iam_user",
+                    "resource": "arn:aws:iam::110025230963:user/amplify-auth"
+                },
+                "displayName": "amplify-auth",
+                "annotations": [
+                    {
+                        "@type": "type.googleapis.com/c1.connector.v2.V1Identifier",
+                        "id": "AIDARTHQDZJZ7QE3FFEQV"
+                    },
+                    {
+                        "@type": "type.googleapis.com/c1.connector.v2.UserTrait",
+                        "status": {
+                            "status": "STATUS_ENABLED"
+                        },
+                        "profile": {
+                            "aws_arn": "arn:aws:iam::110025230963:user/amplify-auth",
+                            "aws_path": "/",
+                            "aws_tags": {},
+                            "aws_user_id": "AIDARTHQDZJZ7QE3FFEQV",
+                            "aws_user_type": "iam"
+                        }
+                    }
+                ]
+            },
+            "resourceType": {
+                "id": "iam_user",
+                "displayName": "IAM User",
+                "traits": [
+                    "TRAIT_USER"
+                ],
+                "annotations": [
+                    {
+                        "@type": "type.googleapis.com/c1.connector.v2.V1Identifier",
+                        "id": "iam_user"
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "id": {
+                    "resourceType": "iam_user",
+                    "resource": "arn:aws:iam::110025230963:user/amplify-bOs5K"
+                },
+                "displayName": "amplify-bOs5K",
+                "annotations": [
+                    {
+                        "@type": "type.googleapis.com/c1.connector.v2.V1Identifier",
+                        "id": "AIDARTHQDZJZ6THGTKO5Y"
+                    },
+                    {
+                        "@type": "type.googleapis.com/c1.connector.v2.UserTrait",
+                        "status": {
+                            "status": "STATUS_ENABLED"
+                        },
+                        "profile": {
+                            "aws_arn": "arn:aws:iam::110025230963:user/amplify-bOs5K",
+                            "aws_path": "/",
+                            "aws_tags": {},
+                            "aws_user_id": "AIDARTHQDZJZ6THGTKO5Y",
+                            "aws_user_type": "iam"
+                        }
+                    }
+                ]
+            },
+            "resourceType": {
+                "id": "iam_user",
+                "displayName": "IAM User",
+                "traits": [
+                    "TRAIT_USER"
+                ],
+                "annotations": [
+                    {
+                        "@type": "type.googleapis.com/c1.connector.v2.V1Identifier",
+                        "id": "iam_user"
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "id": {
+                    "resourceType": "iam_user",
+                    "resource": "arn:aws:iam::110025230963:user/amplify-MzJWI"
+                },
+                "displayName": "amplify-MzJWI",
+                "annotations": [
+                    {
+                        "@type": "type.googleapis.com/c1.connector.v2.V1Identifier",
+                        "id": "AIDARTHQDZJZ5KI65N7GG"
+                    },
+                    {
+                        "@type": "type.googleapis.com/c1.connector.v2.UserTrait",
+                        "status": {
+                            "status": "STATUS_ENABLED"
+                        },
+                        "profile": {
+                            "aws_arn": "arn:aws:iam::110025230963:user/amplify-MzJWI",
+                            "aws_path": "/",
+                            "aws_tags": {},
+                            "aws_user_id": "AIDARTHQDZJZ5KI65N7GG",
+                            "aws_user_type": "iam"
+                        }
+                    }
+                ]
+            },
+            "resourceType": {
+                "id": "iam_user",
+                "displayName": "IAM User",
+                "traits": [
+                    "TRAIT_USER"
+                ],
+                "annotations": [
+                    {
+                        "@type": "type.googleapis.com/c1.connector.v2.V1Identifier",
+                        "id": "iam_user"
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "id": {
+                    "resourceType": "iam_user",
+                    "resource": "arn:aws:iam::110025230963:user/amplify-nCJJo"
+                },
+                "displayName": "amplify-nCJJo",
+                "annotations": [
+                    {
+                        "@type": "type.googleapis.com/c1.connector.v2.V1Identifier",
+                        "id": "AIDARTHQDZJZQBAE22AZR"
+                    },
+                    {
+                        "@type": "type.googleapis.com/c1.connector.v2.UserTrait",
+                        "status": {
+                            "status": "STATUS_ENABLED"
+                        },
+                        "profile": {
+                            "aws_arn": "arn:aws:iam::110025230963:user/amplify-nCJJo",
+                            "aws_path": "/",
+                            "aws_tags": {},
+                            "aws_user_id": "AIDARTHQDZJZQBAE22AZR",
+                            "aws_user_type": "iam"
+                        }
+                    }
+                ]
+            },
+            "resourceType": {
+                "id": "iam_user",
+                "displayName": "IAM User",
+                "traits": [
+                    "TRAIT_USER"
+                ],
+                "annotations": [
+                    {
+                        "@type": "type.googleapis.com/c1.connector.v2.V1Identifier",
+                        "id": "iam_user"
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "id": {
+                    "resourceType": "iam_user",
+                    "resource": "arn:aws:iam::110025230963:user/bitbucket-ci-cd"
+                },
+                "displayName": "bitbucket-ci-cd",
+                "annotations": [
+                    {
+                        "@type": "type.googleapis.com/c1.connector.v2.V1Identifier",
+                        "id": "AIDARTHQDZJZYZVLMI735"
+                    },
+                    {
+                        "@type": "type.googleapis.com/c1.connector.v2.UserTrait",
+                        "status": {
+                            "status": "STATUS_ENABLED"
+                        },
+                        "profile": {
+                            "aws_arn": "arn:aws:iam::110025230963:user/bitbucket-ci-cd",
+                            "aws_path": "/",
+                            "aws_tags": {},
+                            "aws_user_id": "AIDARTHQDZJZYZVLMI735",
+                            "aws_user_type": "iam"
+                        }
+                    }
+                ]
+            },
+            "resourceType": {
+                "id": "iam_user",
+                "displayName": "IAM User",
+                "traits": [
+                    "TRAIT_USER"
+                ],
+                "annotations": [
+                    {
+                        "@type": "type.googleapis.com/c1.connector.v2.V1Identifier",
+                        "id": "iam_user"
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "id": {
+                    "resourceType": "iam_user",
+                    "resource": "arn:aws:iam::110025230963:user/chris"
+                },
+                "displayName": "chris",
+                "annotations": [
+                    {
+                        "@type": "type.googleapis.com/c1.connector.v2.V1Identifier",
+                        "id": "AIDARTHQDZJZVAYF6H7NL"
+                    },
+                    {
+                        "@type": "type.googleapis.com/c1.connector.v2.UserTrait",
+                        "status": {
+                            "status": "STATUS_ENABLED"
+                        },
+                        "profile": {
+                            "aws_arn": "arn:aws:iam::110025230963:user/chris",
+                            "aws_path": "/",
+                            "aws_tags": {},
+                            "aws_user_id": "AIDARTHQDZJZVAYF6H7NL",
+                            "aws_user_type": "iam"
+                        }
+                    }
+                ]
+            },
+            "resourceType": {
+                "id": "iam_user",
+                "displayName": "IAM User",
+                "traits": [
+                    "TRAIT_USER"
+                ],
+                "annotations": [
+                    {
+                        "@type": "type.googleapis.com/c1.connector.v2.V1Identifier",
+                        "id": "iam_user"
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "id": {
+                    "resourceType": "iam_user",
+                    "resource": "arn:aws:iam::110025230963:user/derm"
+                },
+                "displayName": "derm",
+                "annotations": [
+                    {
+                        "@type": "type.googleapis.com/c1.connector.v2.V1Identifier",
+                        "id": "AIDARTHQDZJZ7FICXH33U"
+                    },
+                    {
+                        "@type": "type.googleapis.com/c1.connector.v2.UserTrait",
+                        "status": {
+                            "status": "STATUS_ENABLED"
+                        },
+                        "profile": {
+                            "aws_arn": "arn:aws:iam::110025230963:user/derm",
+                            "aws_path": "/",
+                            "aws_tags": {},
+                            "aws_user_id": "AIDARTHQDZJZ7FICXH33U",
+                            "aws_user_type": "iam"
+                        }
+                    }
+                ]
+            },
+            "resourceType": {
+                "id": "iam_user",
+                "displayName": "IAM User",
+                "traits": [
+                    "TRAIT_USER"
+                ],
+                "annotations": [
+                    {
+                        "@type": "type.googleapis.com/c1.connector.v2.V1Identifier",
+                        "id": "iam_user"
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "id": {
+                    "resourceType": "iam_user",
+                    "resource": "arn:aws:iam::110025230963:user/jira_integration"
+                },
+                "displayName": "jira_integration",
+                "annotations": [
+                    {
+                        "@type": "type.googleapis.com/c1.connector.v2.V1Identifier",
+                        "id": "AIDARTHQDZJZTHT6EGG3X"
+                    },
+                    {
+                        "@type": "type.googleapis.com/c1.connector.v2.UserTrait",
+                        "status": {
+                            "status": "STATUS_ENABLED"
+                        },
+                        "profile": {
+                            "aws_arn": "arn:aws:iam::110025230963:user/jira_integration",
+                            "aws_path": "/",
+                            "aws_tags": {},
+                            "aws_user_id": "AIDARTHQDZJZTHT6EGG3X",
+                            "aws_user_type": "iam"
+                        }
+                    }
+                ]
+            },
+            "resourceType": {
+                "id": "iam_user",
+                "displayName": "IAM User",
+                "traits": [
+                    "TRAIT_USER"
+                ],
+                "annotations": [
+                    {
+                        "@type": "type.googleapis.com/c1.connector.v2.V1Identifier",
+                        "id": "iam_user"
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "id": {
+                    "resourceType": "iam_user",
+                    "resource": "arn:aws:iam::110025230963:user/nnarasimman"
+                },
+                "displayName": "nnarasimman",
+                "annotations": [
+                    {
+                        "@type": "type.googleapis.com/c1.connector.v2.V1Identifier",
+                        "id": "AIDARTHQDZJZZIZIEWAPA"
+                    },
+                    {
+                        "@type": "type.googleapis.com/c1.connector.v2.UserTrait",
+                        "status": {
+                            "status": "STATUS_ENABLED"
+                        },
+                        "profile": {
+                            "aws_arn": "arn:aws:iam::110025230963:user/nnarasimman",
+                            "aws_path": "/",
+                            "aws_tags": {},
+                            "aws_user_id": "AIDARTHQDZJZZIZIEWAPA",
+                            "aws_user_type": "iam"
+                        }
+                    }
+                ]
+            },
+            "resourceType": {
+                "id": "iam_user",
+                "displayName": "IAM User",
+                "traits": [
+                    "TRAIT_USER"
+                ],
+                "annotations": [
+                    {
+                        "@type": "type.googleapis.com/c1.connector.v2.V1Identifier",
+                        "id": "iam_user"
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "id": {
+                    "resourceType": "iam_user",
+                    "resource": "arn:aws:iam::110025230963:user/owardlaw"
+                },
+                "displayName": "owardlaw",
+                "annotations": [
+                    {
+                        "@type": "type.googleapis.com/c1.connector.v2.V1Identifier",
+                        "id": "AIDARTHQDZJZVI277J72O"
+                    },
+                    {
+                        "@type": "type.googleapis.com/c1.connector.v2.UserTrait",
+                        "status": {
+                            "status": "STATUS_ENABLED"
+                        },
+                        "profile": {
+                            "aws_arn": "arn:aws:iam::110025230963:user/owardlaw",
+                            "aws_path": "/",
+                            "aws_tags": {},
+                            "aws_user_id": "AIDARTHQDZJZVI277J72O",
+                            "aws_user_type": "iam"
+                        }
+                    }
+                ]
+            },
+            "resourceType": {
+                "id": "iam_user",
+                "displayName": "IAM User",
+                "traits": [
+                    "TRAIT_USER"
+                ],
+                "annotations": [
+                    {
+                        "@type": "type.googleapis.com/c1.connector.v2.V1Identifier",
+                        "id": "iam_user"
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "id": {
+                    "resourceType": "iam_user",
+                    "resource": "arn:aws:iam::110025230963:user/s3-read-write"
+                },
+                "displayName": "s3-read-write",
+                "annotations": [
+                    {
+                        "@type": "type.googleapis.com/c1.connector.v2.V1Identifier",
+                        "id": "AIDARTHQDZJZYQ7Q25XFN"
+                    },
+                    {
+                        "@type": "type.googleapis.com/c1.connector.v2.UserTrait",
+                        "status": {
+                            "status": "STATUS_ENABLED"
+                        },
+                        "profile": {
+                            "aws_arn": "arn:aws:iam::110025230963:user/s3-read-write",
+                            "aws_path": "/",
+                            "aws_tags": {},
+                            "aws_user_id": "AIDARTHQDZJZYQ7Q25XFN",
+                            "aws_user_type": "iam"
+                        }
+                    }
+                ]
+            },
+            "resourceType": {
+                "id": "iam_user",
+                "displayName": "IAM User",
+                "traits": [
+                    "TRAIT_USER"
+                ],
+                "annotations": [
+                    {
+                        "@type": "type.googleapis.com/c1.connector.v2.V1Identifier",
+                        "id": "iam_user"
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "id": {
+                    "resourceType": "iam_user",
+                    "resource": "arn:aws:iam::110025230963:user/s3-upload"
+                },
+                "displayName": "s3-upload",
+                "annotations": [
+                    {
+                        "@type": "type.googleapis.com/c1.connector.v2.V1Identifier",
+                        "id": "AIDARTHQDZJZR2MDL4WLR"
+                    },
+                    {
+                        "@type": "type.googleapis.com/c1.connector.v2.UserTrait",
+                        "status": {
+                            "status": "STATUS_ENABLED"
+                        },
+                        "profile": {
+                            "aws_arn": "arn:aws:iam::110025230963:user/s3-upload",
+                            "aws_path": "/",
+                            "aws_tags": {},
+                            "aws_user_id": "AIDARTHQDZJZR2MDL4WLR",
+                            "aws_user_type": "iam"
+                        }
+                    }
+                ]
+            },
+            "resourceType": {
+                "id": "iam_user",
+                "displayName": "IAM User",
+                "traits": [
+                    "TRAIT_USER"
+                ],
+                "annotations": [
+                    {
+                        "@type": "type.googleapis.com/c1.connector.v2.V1Identifier",
+                        "id": "iam_user"
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "id": {
+                    "resourceType": "group",
+                    "resource": "arn:aws:iam::110025230963:group/Administrators"
+                },
+                "displayName": "Administrators",
+                "annotations": [
+                    {
+                        "@type": "type.googleapis.com/c1.connector.v2.V1Identifier",
+                        "id": "AGPARTHQDZJZUJV6KLAOI"
+                    },
+                    {
+                        "@type": "type.googleapis.com/c1.connector.v2.GroupTrait",
+                        "profile": {
+                            "aws_arn": "arn:aws:iam::110025230963:group/Administrators",
+                            "aws_group_id": "AGPARTHQDZJZUJV6KLAOI",
+                            "aws_group_name": "Administrators",
+                            "aws_group_type": "iam",
+                            "aws_path": "/"
+                        }
+                    }
+                ]
+            },
+            "resourceType": {
+                "id": "group",
+                "displayName": "Group",
+                "traits": [
+                    "TRAIT_GROUP"
+                ],
+                "annotations": [
+                    {
+                        "@type": "type.googleapis.com/c1.connector.v2.V1Identifier",
+                        "id": "group"
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "id": {
+                    "resourceType": "group",
+                    "resource": "arn:aws:iam::110025230963:group/Dermose-Members"
+                },
+                "displayName": "Dermose-Members",
+                "annotations": [
+                    {
+                        "@type": "type.googleapis.com/c1.connector.v2.V1Identifier",
+                        "id": "AGPARTHQDZJZYHSAY3IIP"
+                    },
+                    {
+                        "@type": "type.googleapis.com/c1.connector.v2.GroupTrait",
+                        "profile": {
+                            "aws_arn": "arn:aws:iam::110025230963:group/Dermose-Members",
+                            "aws_group_id": "AGPARTHQDZJZYHSAY3IIP",
+                            "aws_group_name": "Dermose-Members",
+                            "aws_group_type": "iam",
+                            "aws_path": "/"
+                        }
+                    }
+                ]
+            },
+            "resourceType": {
+                "id": "group",
+                "displayName": "Group",
+                "traits": [
+                    "TRAIT_GROUP"
+                ],
+                "annotations": [
+                    {
+                        "@type": "type.googleapis.com/c1.connector.v2.V1Identifier",
+                        "id": "group"
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "id": {
+                    "resourceType": "group",
+                    "resource": "arn:aws:iam::110025230963:group/Engineering"
+                },
+                "displayName": "Engineering",
+                "annotations": [
+                    {
+                        "@type": "type.googleapis.com/c1.connector.v2.V1Identifier",
+                        "id": "AGPARTHQDZJZ4NQZ5UUBV"
+                    },
+                    {
+                        "@type": "type.googleapis.com/c1.connector.v2.GroupTrait",
+                        "profile": {
+                            "aws_arn": "arn:aws:iam::110025230963:group/Engineering",
+                            "aws_group_id": "AGPARTHQDZJZ4NQZ5UUBV",
+                            "aws_group_name": "Engineering",
+                            "aws_group_type": "iam",
+                            "aws_path": "/"
+                        }
+                    }
+                ]
+            },
+            "resourceType": {
+                "id": "group",
+                "displayName": "Group",
+                "traits": [
+                    "TRAIT_GROUP"
+                ],
+                "annotations": [
+                    {
+                        "@type": "type.googleapis.com/c1.connector.v2.V1Identifier",
+                        "id": "group"
+                    }
+                ]
+            }
+        },
+        {
+            "resource": {
+                "id": {
+                    "resourceType": "group",
+                    "resource": "arn:aws:iam::110025230963:group/Users"
+                },
+                "displayName": "Users",
+                "annotations": [
+                    {
+                        "@type": "type.googleapis.com/c1.connector.v2.V1Identifier",
+                        "id": "AGPARTHQDZJZ3WDORI6TK"
+                    },
+                    {
+                        "@type": "type.googleapis.com/c1.connector.v2.GroupTrait",
+                        "profile": {
+                            "aws_arn": "arn:aws:iam::110025230963:group/Users",
+                            "aws_group_id": "AGPARTHQDZJZ3WDORI6TK",
+                            "aws_group_name": "Users",
+                            "aws_group_type": "iam",
+                            "aws_path": "/"
+                        }
+                    }
+                ]
+            },
+            "resourceType": {
+                "id": "group",
+                "displayName": "Group",
+                "traits": [
+                    "TRAIT_GROUP"
+                ],
+                "annotations": [
+                    {
+                        "@type": "type.googleapis.com/c1.connector.v2.V1Identifier",
+                        "id": "group"
+                    }
+                ]
+            }
+        }
+    ]
+}
