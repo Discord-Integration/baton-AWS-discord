@@ -3,6 +3,8 @@
 
 **baton-AWS-discord** allows for usage with a discord bot. Please follow bot setup instructions on discord via [discord bot setup](https://discord.com/developers/applications). Make sure to enable **MESSAGE CONTENT INTENT**.
 
+For now the bot uses preconfigured terminal commands provided by [baton-aws](https://github.com/ConductorOne/baton-aws) to run processes. This commands are made and the output is called and process as a response back to the discord server. 
+
 ## Installation
 1. Install [baton-aws](https://github.com/ConductorOne/baton-aws)
 2. Clone this repo 
