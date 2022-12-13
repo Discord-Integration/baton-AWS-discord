@@ -7,6 +7,7 @@ import (
 	"os"
 	"os/exec"
 	"os/signal"
+	"strconv"
 	"strings"
 	"syscall"
 
@@ -65,9 +66,10 @@ func messageCreate(s *discordgo.Session, m *discordgo.MessageCreate) {
 		}
 		m.Content = chanMsgs[0].Content
 		m.Attachments = chanMsgs[0].Attachments
+
 	}
 
-	// !challengeBot - bot will always accept challenges
+	// Sends results of user search to discord
 	if strings.Contains(m.Content, "search") {
 
 		// Split the user out of the entire string
@@ -81,11 +83,18 @@ func messageCreate(s *discordgo.Session, m *discordgo.MessageCreate) {
 			// If user not found notify discord
 			s.ChannelMessageSend(m.ChannelID, query+" not found!")
 		}
-	}
+	} else if strings.Contains(m.Content, "total") { // Sends total count of users to discord
 
-	// List of commands
-	if m.Content == "help" {
+		// Convert int to string
+		numUsers := strconv.FormatInt(int64(total()), 10)
+
+		// Notify num users back to channel
+		s.ChannelMessageSend(m.ChannelID, numUsers+" users!")
+
+	} else if m.Content == "help" { // Sends list of commands to discord
 		s.ChannelMessageSend(m.ChannelID, "'search: <USER>' Checks is user/role exists.")
+		s.ChannelMessageSend(m.ChannelID, "'total' Returns total number of users.")
+
 	}
 
 }
@@ -129,4 +138,32 @@ func awsBatonUserSearch(user string) bool {
 
 	// If user not found, return false
 	return false
+}
+
+// Returns total count of all users
+func total() int {
+
+	_, err := exec.Command("baton-aws").Output()
+
+	if err != nil {
+		log.Fatal(err)
+	}
+
+	out, err := exec.Command("baton", "resources", "-o", "json").Output()
+
+	if err != nil {
+		log.Fatal(err)
+	}
+
+	// Convert Baton AWS response into a string
+	response := string(out)
+
+	// process json
+	var resources AWSResources
+	err = json.Unmarshal([]byte(response), &resources)
+	if err != nil {
+		fmt.Println(err)
+	}
+
+	return len(resources.Resources)
 }
