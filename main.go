@@ -23,7 +23,6 @@ func main() {
 		log.Fatal("Error loading .env file")
 	}
 
-	// os.Setenv("DISCORD_TOKEN", "MTA1MjAzNDkzNzYwNTMzNzA5OQ.G3QY5M.6tbbCCmlS0vVOFoR-jKn13-n97KtWxNR5yAmB8")
 	token := os.Getenv("DISCORD_TOKEN")
 	fmt.Println("token" + token)
 
